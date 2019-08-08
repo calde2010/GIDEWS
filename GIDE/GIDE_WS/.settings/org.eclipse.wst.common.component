@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="GIDE_WS">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="GIDE_ESESP-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/GIDE_ESESP/GIDE_ESESP">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GIDE_TRADUCTOR-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/GIDE_TRADUCTOR/GIDE_TRADUCTOR">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GIDE_ESING-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/GIDE_ESING/GIDE_ESING">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GIDE_VALIDATE-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/GIDE_VALIDATE/GIDE_VALIDATE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GIDE_CLIENTES-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/GIDE_CLIENTES/GIDE_CLIENTES">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GIDE_TX-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/GIDE_TX/GIDE_TX">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="GIDE_WS"/>
+        <property name="java-output-path" value="/GIDE_WS/target/classes"/>
+    </wb-module>
+</project-modules>

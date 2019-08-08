@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions
+	targetNamespace="http://serviciosImpl.wsstandardsineb.mineducacion.gov.co/"
+	name="ServicioEstablecimientoEducativoService"
+	xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+	xmlns:wsp="http://www.w3.org/ns/ws-policy"
+	xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy"
+	xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+	xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+	xmlns:tns="http://serviciosImpl.wsstandardsineb.mineducacion.gov.co/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.xmlsoap.org/wsdl/">
+	<types>
+		<xsd:schema>
+			<xsd:import
+				namespace="http://serviciosImpl.wsstandardsineb.mineducacion.gov.co/"
+				schemaLocation="./EstablecimientoEducativo.xsd" />
+		</xsd:schema>
+	</types>
+	<message name="obtenerEstablecimientosEducativos">
+		<part name="parameters"
+			element="tns:obtenerEstablecimientosEducativos" />
+	</message>
+	<message name="obtenerEstablecimientosEducativosResponse">
+		<part name="parameters"
+			element="tns:obtenerEstablecimientosEducativosResponse" />
+	</message>
+	<message name="obtenerEstablecimientoEducativo">
+		<part name="parameters"
+			element="tns:obtenerEstablecimientoEducativo" />
+	</message>
+	<message name="obtenerEstablecimientoEducativoResponse">
+		<part name="parameters"
+			element="tns:obtenerEstablecimientoEducativoResponse" />
+	</message>
+	<portType name="IServicioEstablecimientoEducativo">
+		<operation name="obtenerEstablecimientosEducativos">
+			<input
+				wsam:Action="http://www.mineducacion.gov.co/ServiciosSineb/obtenerEstablecimientosEducativos"
+				message="tns:obtenerEstablecimientosEducativos" />
+			<output
+				wsam:Action="http://serviciosImpl.wsstandardsineb.mineducacion.gov.co/IServicioEstablecimientoEducativo/obtenerEstablecimientosEducativosResponse"
+				message="tns:obtenerEstablecimientosEducativosResponse" />
+		</operation>
+		<operation name="obtenerEstablecimientoEducativo">
+			<input
+				wsam:Action="http://www.mineducacion.gov.co/ServiciosSineb/obtenerEstablecimientoEducativo"
+				message="tns:obtenerEstablecimientoEducativo" />
+			<output
+				wsam:Action="http://serviciosImpl.wsstandardsineb.mineducacion.gov.co/IServicioEstablecimientoEducativo/obtenerEstablecimientoEducativoResponse"
+				message="tns:obtenerEstablecimientoEducativoResponse" />
+		</operation>
+	</portType>
+	<binding name="IServicioEstablecimientoEducativoPortBinding"
+		type="tns:IServicioEstablecimientoEducativo">
+		<soap12:binding
+			transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+		<operation name="obtenerEstablecimientosEducativos">
+			<soap12:operation
+				soapAction="http://www.mineducacion.gov.co/ServiciosSineb/obtenerEstablecimientosEducativos" />
+			<input>
+				<soap12:body use="literal" />
+			</input>
+			<output>
+				<soap12:body use="literal" />
+			</output>
+		</operation>
+		<operation name="obtenerEstablecimientoEducativo">
+			<soap12:operation
+				soapAction="http://www.mineducacion.gov.co/ServiciosSineb/obtenerEstablecimientoEducativo" />
+			<input>
+				<soap12:body use="literal" />
+			</input>
+			<output>
+				<soap12:body use="literal" />
+			</output>
+		</operation>
+	</binding>
+	<service name="ServicioEstablecimientoEducativoService">
+		<port name="IServicioEstablecimientoEducativoPort"
+			binding="tns:IServicioEstablecimientoEducativoPortBinding">
+			<soap12:address
+				location="http://localhost:8080/wsstandardsineb/EstablecimientoEducativo" />
+		</port>
+	</service>
+</definitions>

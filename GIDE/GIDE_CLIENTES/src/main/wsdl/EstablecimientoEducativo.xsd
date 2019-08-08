@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.3 (tags/2.3-7528; 2013-04-29T19:34:10+0000) JAXWS-RI/2.2.8 JAXWS/2.2 svn-revision#unknown.--><xs:schema version="1.0" targetNamespace="http://serviciosImpl.wsstandardsineb.mineducacion.gov.co/" xmlns:tns="http://serviciosImpl.wsstandardsineb.mineducacion.gov.co/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="obtenerEstablecimientoEducativo" type="tns:obtenerEstablecimientoEducativo"/>
+  <xs:element name="obtenerEstablecimientoEducativoResponse" type="tns:obtenerEstablecimientoEducativoResponse"/>
+  <xs:element name="obtenerEstablecimientosEducativos" type="tns:obtenerEstablecimientosEducativos"/>
+  <xs:element name="obtenerEstablecimientosEducativosResponse" type="tns:obtenerEstablecimientosEducativosResponse"/>
+  <xs:complexType name="obtenerEstablecimientoEducativo">
+    <xs:sequence>
+      <xs:element name="codDaneEstablecimientoEducativo" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerEstablecimientoEducativoResponse">
+    <xs:sequence>
+      <xs:element name="establecimientoEducativo" type="tns:EstablecimientoEducativo" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EstablecimientoEducativo">
+    <xs:sequence>
+      <xs:element name="codDane" type="xs:string"/>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="codDepartamento" type="xs:string"/>
+      <xs:element name="codMunicipio" type="xs:string"/>
+      <xs:element name="direccion" type="xs:string"/>
+      <xs:element name="barrio" type="xs:string" minOccurs="0"/>
+      <xs:element name="numTelefono" type="xs:string" minOccurs="0"/>
+      <xs:element name="correo" type="xs:string" minOccurs="0"/>
+      <xs:element name="codTipoEstablecimiento" type="xs:string"/>
+      <xs:element name="codSectorEducativo" type="xs:string"/>
+      <xs:element name="codSecretaria" type="xs:string"/>
+      <xs:element name="codResguardo" type="xs:int" minOccurs="0"/>
+      <xs:element name="lstCodEtnia" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="codPropiedadPlantaFisica" type="xs:string"/>
+      <xs:element name="codPropiedadAdministrativa" type="xs:string"/>
+      <xs:element name="lstCodCapacidadExcepcional" type="xs:int" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="lstCodDiscapacidad" type="xs:int" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="lstCodIdioma" type="xs:int" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="codGeneroAtencion" type="xs:int"/>
+      <xs:element name="codCaracterEducativo" type="xs:int" minOccurs="0"/>
+      <xs:element name="codCalendarioEducativo" type="xs:int"/>
+      <xs:element name="codRevisionLicencia" type="xs:int"/>
+      <xs:element name="esMatriculaContratada" type="xs:boolean"/>
+      <xs:element name="codEstado" type="xs:int"/>
+      <xs:element name="rector" type="tns:Rector" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Rector">
+    <xs:sequence>
+      <xs:element name="identificacion" type="tns:identificacionPersona" minOccurs="0"/>
+      <xs:element name="primerNombre" type="xs:string"/>
+      <xs:element name="segundoNombre" type="xs:string" minOccurs="0"/>
+      <xs:element name="primerApellido" type="xs:string"/>
+      <xs:element name="segundoApellido" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="identificacionPersona" abstract="true">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="identificacionPersonaRC">
+    <xs:complexContent>
+      <xs:extension base="tns:identificacionPersona">
+        <xs:sequence>
+          <xs:element name="numDocumento" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="identificacionPersonaTI">
+    <xs:complexContent>
+      <xs:extension base="tns:identificacionPersona">
+        <xs:sequence>
+          <xs:element name="numDocumento" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="identificacionPersonaCC">
+    <xs:complexContent>
+      <xs:extension base="tns:identificacionPersona">
+        <xs:sequence>
+          <xs:element name="numDocumento" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="identificacionPersonaCE">
+    <xs:complexContent>
+      <xs:extension base="tns:identificacionPersona">
+        <xs:sequence>
+          <xs:element name="numDocumento" type="xs:integer"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="identificacionPersonaVISA">
+    <xs:complexContent>
+      <xs:extension base="tns:identificacionPersona">
+        <xs:sequence>
+          <xs:element name="numDocumento" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="identificacionPersonaTMF">
+    <xs:complexContent>
+      <xs:extension base="tns:identificacionPersona">
+        <xs:sequence>
+          <xs:element name="numDocumento" type="xs:integer"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="identificacionPersonaPEP">
+    <xs:complexContent>
+      <xs:extension base="tns:identificacionPersona">
+        <xs:sequence>
+          <xs:element name="numDocumento" type="xs:integer"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="obtenerEstablecimientosEducativos">
+    <xs:sequence>
+      <xs:element name="filtroEstablecimientosEducativos" type="tns:FiltroEstablecimientosEducativos" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FiltroEstablecimientosEducativos">
+    <xs:sequence>
+      <xs:element name="codDepartamento" type="xs:string" minOccurs="0"/>
+      <xs:element name="codMunicipio" type="xs:string" minOccurs="0"/>
+      <xs:element name="codTipoEstablecimiento" type="xs:string" minOccurs="0"/>
+      <xs:element name="codSectorEducativo" type="xs:string" minOccurs="0"/>
+      <xs:element name="codSecretaria" type="xs:string" minOccurs="0"/>
+      <xs:element name="codResguardo" type="xs:int" minOccurs="0"/>
+      <xs:element name="codPropiedadPlantaFisica" type="xs:string" minOccurs="0"/>
+      <xs:element name="codPropiedadAdministrativa" type="xs:string" minOccurs="0"/>
+      <xs:element name="codGeneroAtencion" type="xs:int" minOccurs="0"/>
+      <xs:element name="codCaracterEducativo" type="xs:int" minOccurs="0"/>
+      <xs:element name="codCalendarioEducativo" type="xs:int" minOccurs="0"/>
+      <xs:element name="paginacion" type="tns:FiltroPaginacion"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FiltroPaginacion">
+    <xs:sequence>
+      <xs:element name="numeroPagina" type="xs:int" minOccurs="0"/>
+      <xs:element name="numeroColumnaOrden" type="xs:int" minOccurs="0"/>
+      <xs:element name="ordenAscendente" type="xs:boolean" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerEstablecimientosEducativosResponse">
+    <xs:sequence>
+      <xs:element name="establecimientosEducativosPaginado" type="tns:EstablecimientosEducativosPaginado" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EstablecimientosEducativosPaginado">
+    <xs:sequence>
+      <xs:element name="establecimientosEducativos" type="tns:EstablecimientoEducativo" maxOccurs="unbounded"/>
+      <xs:element name="paginacion" type="tns:Paginacion"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Paginacion">
+    <xs:sequence>
+      <xs:element name="totalRegistros" type="xs:int"/>
+      <xs:element name="totalPaginas" type="xs:int"/>
+      <xs:element name="totalRegistrosPorPagina" type="xs:int"/>
+      <xs:element name="numeroPagina" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
