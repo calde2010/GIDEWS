@@ -1,0 +1,2097 @@
+2019-04-16 06:42:10,092 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2019-04-16 06:42:10,502 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2019-04-16 06:42:10,653 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2019-04-16 06:42:10,654 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,DESKTOP-679ULBA
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\wildfly-11.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_201\jre
+	java.io.tmpdir = C:\Users\Lenovo\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_201\\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_201-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_201
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.201-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = D:\wildfly-11.0.0.Final
+	jboss.host.name = desktop-679ulba
+	jboss.modules.dir = D:\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-679ulba
+	jboss.qualified.host.name = desktop-679ulba
+	jboss.server.base.dir = D:\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = D:\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = desktop-679ulba
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\wildfly-11.0.0.Final\standalone\configuration/logging.properties
+	module.path = D:\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = D:\wildfly-11.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\wildfly-11.0.0.Final\jboss-modules.jar -mp D:\wildfly-11.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\wildfly-11.0.0.Final -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = CO
+	user.dir = D:\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\Lenovo
+	user.language = es
+	user.name = Lenovo
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-04-16 06:42:10,662 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,DESKTOP-679ULBA -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:\wildfly-11.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:D:\wildfly-11.0.0.Final\standalone\configuration/logging.properties 
+2019-04-16 06:42:18,324 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-16 06:42:18,359 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-16 06:42:18,405 INFO  [org.wildfly.security] (ServerService Thread Pool -- 29) ELY00001: WildFly Elytron version 1.1.6.Final
+2019-04-16 06:42:18,513 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-04-16 06:42:18,622 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.5.4.Final
+2019-04-16 06:42:18,638 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.5.4.Final
+2019-04-16 06:42:18,772 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 47) WFLYRS0016: RESTEasy version 3.0.24.Final
+2019-04-16 06:42:18,779 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 64) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-04-16 06:42:18,788 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 63) WFLYSEC0002: Activating Security Subsystem
+2019-04-16 06:42:18,791 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 66) WFLYWS0002: Activating WebServices Extension
+2019-04-16 06:42:18,792 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2019-04-16 06:42:18,796 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 56) WFLYNAM0001: Activating Naming Subsystem
+2019-04-16 06:42:18,797 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-04-16 06:42:18,891 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2019-04-16 06:42:18,924 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-04-16 06:42:18,928 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 46) WFLYIIOP0001: Activating IIOP Subsystem
+2019-04-16 06:42:19,017 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.18.Final starting
+2019-04-16 06:42:19,149 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 39) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-04-16 06:42:19,166 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-04-16 06:42:19,168 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2019-04-16 06:42:19,169 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-04-16 06:42:19,615 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 44) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2019-04-16 06:42:19,721 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.5.Final
+2019-04-16 06:42:19,799 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2019-04-16 06:42:19,804 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2019-04-16 06:42:19,905 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0014: Creating file handler for path 'D:\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-04-16 06:42:19,962 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2019-04-16 06:42:19,968 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2019-04-16 06:42:20,145 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2019-04-16 06:42:20,262 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2019-04-16 06:42:20,695 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2019-04-16 06:42:20,751 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2019-04-16 06:42:20,753 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore D:\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-04-16 06:42:20,802 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory D:\wildfly-11.0.0.Final\standalone\deployments
+2019-04-16 06:42:20,833 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-04-16 06:42:20,997 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-7) WFLYIIOP0009: CORBA ORB Service started
+2019-04-16 06:42:21,126 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2019-04-16 06:42:21,217 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=D:\wildfly-11.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=D:\wildfly-11.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=D:\wildfly-11.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=D:\wildfly-11.0.0.Final\standalone\data\activemq\paging)
+2019-04-16 06:42:21,470 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221013: Using NIO Journal
+2019-04-16 06:42:21,534 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2019-04-16 06:42:21,953 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2019-04-16 06:42:22,175 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2019-04-16 06:42:22,177 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2019-04-16 06:42:22,178 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2019-04-16 06:42:25,366 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2019-04-16 06:42:25,367 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2019-04-16 06:42:25,370 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2019-04-16 06:42:25,371 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2019-04-16 06:42:25,565 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221007: Server is now live
+2019-04-16 06:42:25,566 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-008 [default, nodeID=b1fb95b9-603c-11e9-af25-5370aef173da] 
+2019-04-16 06:42:25,603 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 68) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2019-04-16 06:42:25,640 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 70) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2019-04-16 06:42:25,642 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: Deploying queue jms.queue.DLQ
+2019-04-16 06:42:25,717 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221003: Deploying queue jms.queue.ExpiryQueue
+2019-04-16 06:42:25,741 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0007: Registered connection factory java:/JmsXA
+2019-04-16 06:42:25,826 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-4) Resource adaptor started
+2019-04-16 06:42:25,827 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-4) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2019-04-16 06:42:25,828 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2019-04-16 06:42:25,828 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2019-04-16 06:42:26,012 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-04-16 06:42:26,020 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-04-16 06:42:26,020 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-04-16 06:42:26,021 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 16376ms - Started 330 of 592 services (363 services are lazy, passive or on-demand)
+2019-04-16 19:44:24,701 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2019-04-16 19:44:33,037 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2019-04-16 19:44:33,485 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2019-04-16 19:44:33,487 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,DESKTOP-679ULBA
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\wildfly-11.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_201\jre
+	java.io.tmpdir = C:\Users\Lenovo\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_201\\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_201-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_201
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.201-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = D:\wildfly-11.0.0.Final
+	jboss.host.name = desktop-679ulba
+	jboss.modules.dir = D:\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-679ulba
+	jboss.qualified.host.name = desktop-679ulba
+	jboss.server.base.dir = D:\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = D:\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = desktop-679ulba
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\wildfly-11.0.0.Final\standalone\configuration/logging.properties
+	module.path = D:\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = D:\wildfly-11.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\wildfly-11.0.0.Final\jboss-modules.jar -mp D:\wildfly-11.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\wildfly-11.0.0.Final -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = CO
+	user.dir = D:\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\Lenovo
+	user.language = es
+	user.name = Lenovo
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-04-16 19:44:33,489 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,DESKTOP-679ULBA -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:\wildfly-11.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:D:\wildfly-11.0.0.Final\standalone\configuration/logging.properties 
+2019-04-16 19:44:55,867 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-16 19:44:55,908 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 9) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-16 19:44:55,979 INFO  [org.wildfly.security] (ServerService Thread Pool -- 29) ELY00001: WildFly Elytron version 1.1.6.Final
+2019-04-16 19:44:56,147 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-04-16 19:44:56,178 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.5.4.Final
+2019-04-16 19:44:56,217 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.5.4.Final
+2019-04-16 19:44:56,297 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 64) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-04-16 19:44:56,316 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 47) WFLYRS0016: RESTEasy version 3.0.24.Final
+2019-04-16 19:44:56,325 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 63) WFLYSEC0002: Activating Security Subsystem
+2019-04-16 19:44:56,352 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 66) WFLYWS0002: Activating WebServices Extension
+2019-04-16 19:44:56,369 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-04-16 19:44:56,381 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 56) WFLYNAM0001: Activating Naming Subsystem
+2019-04-16 19:44:56,400 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 46) WFLYIIOP0001: Activating IIOP Subsystem
+2019-04-16 19:44:56,427 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-04-16 19:44:56,433 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2019-04-16 19:44:56,446 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2019-04-16 19:44:56,616 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 39) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-04-16 19:44:56,767 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-04-16 19:44:56,775 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2019-04-16 19:44:56,797 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-04-16 19:44:57,067 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.18.Final starting
+2019-04-16 19:44:57,841 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0014: Creating file handler for path 'D:\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-04-16 19:44:57,894 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 44) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2019-04-16 19:44:57,928 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2019-04-16 19:44:57,929 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2019-04-16 19:44:58,102 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2019-04-16 19:44:58,129 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.5.Final
+2019-04-16 19:44:58,134 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2019-04-16 19:44:58,317 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2019-04-16 19:44:58,834 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+2019-04-16 19:44:59,063 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-04-16 19:44:59,255 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-4) WFLYIIOP0009: CORBA ORB Service started
+2019-04-16 19:45:17,418 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2019-04-16 19:45:17,424 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2019-04-16 19:45:17,460 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore D:\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-04-16 19:45:17,494 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory D:\wildfly-11.0.0.Final\standalone\deployments
+2019-04-16 19:45:17,666 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=D:\wildfly-11.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=D:\wildfly-11.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=D:\wildfly-11.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=D:\wildfly-11.0.0.Final\standalone\data\activemq\paging)
+2019-04-16 19:45:17,842 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221013: Using NIO Journal
+2019-04-16 19:45:18,008 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2019-04-16 19:45:18,207 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2019-04-16 19:45:18,622 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2019-04-16 19:45:18,625 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2019-04-16 19:45:18,628 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2019-04-16 19:45:20,563 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2019-04-16 19:45:20,563 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2019-04-16 19:45:20,564 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2019-04-16 19:45:20,563 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2019-04-16 19:45:20,770 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221007: Server is now live
+2019-04-16 19:45:20,770 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.5.5.jbossorg-008 [default, nodeID=b1fb95b9-603c-11e9-af25-5370aef173da] 
+2019-04-16 19:45:20,807 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 70) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2019-04-16 19:45:20,887 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221003: Deploying queue jms.queue.ExpiryQueue
+2019-04-16 19:45:20,907 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 72) AMQ221003: Deploying queue jms.queue.DLQ
+2019-04-16 19:45:20,908 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 71) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2019-04-16 19:45:21,095 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0007: Registered connection factory java:/JmsXA
+2019-04-16 19:45:21,215 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-6) Resource adaptor started
+2019-04-16 19:45:21,216 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-6) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2019-04-16 19:45:21,223 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2019-04-16 19:45:21,223 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2019-04-16 19:45:24,471 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2019-04-16 19:45:24,745 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-04-16 19:45:24,751 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-04-16 19:45:24,752 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-04-16 19:45:24,752 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 65815ms - Started 330 of 592 services (363 services are lazy, passive or on-demand)
+2019-04-16 19:47:30,286 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location D:\wildfly-11.0.0.Final\standalone\data\content\eb\0024ea61e63f79a3a2e2464182eac60c8c5816\content
+2019-04-16 19:47:30,346 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "app.war" (runtime-name: "app.war")
+2019-04-16 19:48:13,609 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for APPPU
+2019-04-16 19:48:17,776 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 8) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'app.war#APPPU'
+2019-04-16 19:48:17,797 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 8) HHH000204: Processing PersistenceUnitInfo [
+	name: APPPU
+	...]
+2019-04-16 19:48:18,195 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 8) HHH000412: Hibernate Core {5.1.10.Final}
+2019-04-16 19:48:18,197 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 8) HHH000206: hibernate.properties not found
+2019-04-16 19:48:18,199 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 8) HHH000021: Bytecode provider name : javassist
+2019-04-16 19:48:18,404 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 8) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-16 19:48:18,467 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2019-04-16 19:48:18,982 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 8) WFLYCLINF0002: Started client-mappings cache from ejb container
+2019-04-16 19:48:21,014 WARN  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0013: Deployment app.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2019-04-16 19:48:21,108 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 8) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'app.war#APPPU'
+2019-04-16 19:48:21,627 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 8) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-04-16 19:48:21,639 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 8) HHH000431: Unable to determine H2 database version, certain features may not work
+2019-04-16 19:48:21,739 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 8) Envers integration enabled? : true
+2019-04-16 19:48:22,533 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 8) MSC000001: Failed to start service jboss.persistenceunit."app.war#APPPU": org.jboss.msc.service.StartException in service jboss.persistenceunit."app.war#APPPU": java.lang.ClassCastException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:195)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:125)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:640)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.ClassCastException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory
+	at org.dom4j.DocumentFactory.getInstance(DocumentFactory.java:97)
+	at org.hibernate.internal.util.xml.XMLHelper$1.doWork(XMLHelper.java:33)
+	at org.hibernate.internal.util.xml.XMLHelper$1.doWork(XMLHelper.java:27)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.workWithClassLoader(ClassLoaderServiceImpl.java:358)
+	at org.hibernate.internal.util.xml.XMLHelper.<init>(XMLHelper.java:26)
+	at org.hibernate.envers.boot.internal.EnversServiceImpl.initialize(EnversServiceImpl.java:115)
+	at org.hibernate.envers.boot.internal.AdditionalJaxbMappingProducerImpl.produceAdditionalMappings(AdditionalJaxbMappingProducerImpl.java:99)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:288)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:848)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:875)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:167)
+	... 7 more
+
+2019-04-16 19:48:22,541 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "app.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"app.war#APPPU\"" => "java.lang.ClassCastException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory
+    Caused by: java.lang.ClassCastException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory"}}
+2019-04-16 19:48:23,007 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "app.war" (runtime-name : "app.war")
+2019-04-16 19:48:23,009 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."app.war#APPPU": java.lang.ClassCastException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory
+
+2019-04-16 19:49:13,601 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2019-04-16 19:49:14,024 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2019-04-16 19:49:14,171 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2019-04-16 19:49:14,172 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\wildfly-11.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_201\jre
+	java.io.tmpdir = C:\Users\Lenovo\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_201\\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_201-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_201
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.201-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = D:\wildfly-11.0.0.Final
+	jboss.host.name = desktop-679ulba
+	jboss.modules.dir = D:\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-679ulba
+	jboss.qualified.host.name = desktop-679ulba
+	jboss.server.base.dir = D:\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = D:\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = desktop-679ulba
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\wildfly-11.0.0.Final\standalone\configuration/logging.properties
+	module.path = D:\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = D:\wildfly-11.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\wildfly-11.0.0.Final\jboss-modules.jar -mp D:\wildfly-11.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\wildfly-11.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = CO
+	user.dir = D:\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\Lenovo
+	user.language = es
+	user.name = Lenovo
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-04-16 19:49:14,174 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=D:\wildfly-11.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:D:\wildfly-11.0.0.Final\standalone\configuration/logging.properties 
+2019-04-16 19:49:14,235 INFO  [org.jboss.vfs] (MSC service thread 1-3) VFS000002: Failed to clean existing content for temp file provider of type temp. Enable DEBUG level log to find what caused this
+2019-04-16 19:49:16,150 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-16 19:49:16,175 INFO  [org.wildfly.security] (ServerService Thread Pool -- 15) ELY00001: WildFly Elytron version 1.1.6.Final
+2019-04-16 19:49:16,208 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-16 19:49:16,284 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment app.war
+2019-04-16 19:49:21,014 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-04-16 19:49:21,045 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.5.4.Final
+2019-04-16 19:49:21,060 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.5.4.Final
+2019-04-16 19:49:21,133 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.5.Final
+2019-04-16 19:49:21,612 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-04-16 19:49:21,637 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2019-04-16 19:49:21,640 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2019-04-16 19:49:21,654 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2019-04-16 19:49:21,658 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-04-16 19:49:21,717 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2019-04-16 19:49:21,826 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-04-16 19:49:21,852 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2019-04-16 19:49:21,862 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2019-04-16 19:49:21,896 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.18.Final starting
+2019-04-16 19:49:21,979 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2019-04-16 19:49:22,052 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-04-16 19:49:22,061 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2019-04-16 19:49:22,078 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-04-16 19:49:22,100 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-04-16 19:49:22,348 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2019-04-16 19:49:22,378 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2019-04-16 19:49:22,654 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'D:\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-04-16 19:49:22,704 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2019-04-16 19:49:22,775 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2019-04-16 19:49:22,778 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2019-04-16 19:49:22,823 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = oracle
+2019-04-16 19:49:22,951 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service org.wildfly.undertow.listener.default: org.jboss.msc.service.StartException in service org.wildfly.undertow.listener.default: Address already in use: bind /127.0.0.1:8080
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:179)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-16 19:49:22,967 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+2019-04-16 19:49:23,373 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2019-04-16 19:49:23,402 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore D:\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-04-16 19:49:23,425 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-04-16 19:49:23,432 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory D:\wildfly-11.0.0.Final\standalone\deployments
+2019-04-16 19:49:23,432 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/AppDS]
+2019-04-16 19:49:23,458 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "app.war" (runtime-name: "app.war")
+2019-04-16 19:49:23,536 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service org.wildfly.management.http.extensible: org.jboss.msc.service.StartException in service org.wildfly.management.http.extensible: java.net.BindException: Address already in use: bind /127.0.0.1:9990
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:340)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-16 19:49:23,789 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service org.wildfly.undertow.listener.https: org.jboss.msc.service.StartException in service org.wildfly.undertow.listener.https: Address already in use: bind /127.0.0.1:8443
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:179)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-16 19:49:40,700 INFO  [org.jboss.vfs] (MSC service thread 1-1) VFS000002: Failed to clean existing content for temp file provider of type deployment. Enable DEBUG level log to find what caused this
+2019-04-16 19:49:53,104 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.management.http.extensible" => "java.net.BindException: Address already in use: bind /127.0.0.1:9990"}}
+2019-04-16 19:50:02,764 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.undertow.listener.default" => "Address already in use: bind /127.0.0.1:8080"}}
+2019-04-16 19:50:02,766 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("https-listener" => "https")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.undertow.listener.https" => "Address already in use: bind /127.0.0.1:8443"}}
+2019-04-16 19:50:02,774 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.management.http.extensible" => "java.net.BindException: Address already in use: bind /127.0.0.1:9990"}}
+2019-04-16 19:50:02,928 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2019-04-16 19:50:03,523 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-04-16 19:50:03,537 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:/AppDS]
+2019-04-16 19:50:03,546 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2019-04-16 19:50:03,563 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.4.18.Final stopping
+2019-04-16 19:50:03,580 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2019-04-16 19:50:03,581 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = oracle
+2019-04-16 19:50:04,031 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment app.war (runtime-name: app.war) in 1254ms
+2019-04-16 19:50:04,040 ERROR [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0021: Deploy of deployment "app.war" was rolled back with the following failure message: undefined
+2019-04-16 19:50:04,100 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 606ms
+2019-04-16 19:50:04,112 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ManagementRealm")
+    ],
+    "operation" => "add",
+    "map-groups-to-roles" => false
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ManagementRealm"),
+        ("authentication" => "local")
+    ],
+    "default-user" => "$local",
+    "skip-group-loading" => true
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ManagementRealm"),
+        ("authentication" => "properties")
+    ],
+    "path" => "mgmt-users.properties",
+    "relative-to" => "jboss.server.config.dir"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ManagementRealm"),
+        ("authorization" => "properties")
+    ],
+    "path" => "mgmt-groups.properties",
+    "relative-to" => "jboss.server.config.dir"
+}, {
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ApplicationRealm")
+    ],
+    "operation" => "add"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ApplicationRealm"),
+        ("server-identity" => "ssl")
+    ],
+    "keystore-path" => "application.keystore",
+    "keystore-relative-to" => "jboss.server.config.dir",
+    "keystore-password" => "password",
+    "alias" => "server",
+    "key-password" => "password",
+    "generate-self-signed-certificate-host" => "localhost"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ApplicationRealm"),
+        ("authentication" => "local")
+    ],
+    "default-user" => "$local",
+    "allowed-users" => "*",
+    "skip-group-loading" => true
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ApplicationRealm"),
+        ("authentication" => "properties")
+    ],
+    "path" => "application-users.properties",
+    "relative-to" => "jboss.server.config.dir"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("security-realm" => "ApplicationRealm"),
+        ("authorization" => "properties")
+    ],
+    "path" => "application-roles.properties",
+    "relative-to" => "jboss.server.config.dir"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("access" => "audit")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("access" => "audit"),
+        ("json-formatter" => "json-formatter")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("access" => "audit"),
+        ("file-handler" => "file")
+    ],
+    "formatter" => "json-formatter",
+    "path" => "audit-log.log",
+    "relative-to" => "jboss.server.data.dir"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("access" => "audit"),
+        ("logger" => "audit-log")
+    ],
+    "log-boot" => true,
+    "log-read-only" => false,
+    "enabled" => false
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("access" => "audit"),
+        ("logger" => "audit-log"),
+        ("handler" => "file")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("core-service" => "management"),
+        ("management-interface" => "http-interface")
+    ],
+    "security-realm" => "ManagementRealm",
+    "http-upgrade" => {"enabled" => true},
+    "socket-binding" => "management-http"
+}, {
+    "operation" => "write-attribute",
+    "address" => [
+        ("core-service" => "management"),
+        ("access" => "authorization")
+    ],
+    "name" => "provider",
+    "value" => "simple"
+}, {
+    "address" => [
+        ("core-service" => "management"),
+        ("access" => "authorization"),
+        ("role-mapping" => "SuperUser")
+    ],
+    "operation" => "add"
+}, {
+    "operation" => "add",
+    "type" => "user",
+    "name" => "$local",
+    "address" => [
+        ("core-service" => "management"),
+        ("access" => "authorization"),
+        ("role-mapping" => "SuperUser"),
+        ("include" => "user-$local")
+    ]
+}, {
+    "address" => [("interface" => "management")],
+    "operation" => "add",
+    "inet-address" => expression "${jboss.bind.address.management:127.0.0.1}"
+}, {
+    "address" => [("interface" => "public")],
+    "operation" => "add",
+    "inet-address" => expression "${jboss.bind.address:127.0.0.1}"
+}, {
+    "operation" => "add",
+    "address" => [("socket-binding-group" => "standard-sockets")],
+    "default-interface" => "public",
+    "port-offset" => expression "${jboss.socket.binding.port-offset:0}"
+}, {
+    "address" => [
+        ("socket-binding-group" => "standard-sockets"),
+        ("socket-binding" => "management-http")
+    ],
+    "operation" => "add",
+    "interface" => "management",
+    "port" => expression "${jboss.management.http.port:9990}"
+}, {
+    "address" => [
+        ("socket-binding-group" => "standard-sockets"),
+        ("socket-binding" => "management-https")
+    ],
+    "operation" => "add",
+    "interface" => "management",
+    "port" => expression "${jboss.management.https.port:9993}"
+}, {
+    "address" => [
+        ("socket-binding-group" => "standard-sockets"),
+        ("socket-binding" => "ajp")
+    ],
+    "operation" => "add",
+    "port" => expression "${jboss.ajp.port:8009}"
+}, {
+    "address" => [
+        ("socket-binding-group" => "standard-sockets"),
+        ("socket-binding" => "http")
+    ],
+    "operation" => "add",
+    "port" => expression "${jboss.http.port:8080}"
+}, {
+    "address" => [
+        ("socket-binding-group" => "standard-sockets"),
+        ("socket-binding" => "https")
+    ],
+    "operation" => "add",
+    "port" => expression "${jboss.https.port:8443}"
+}, {
+    "address" => [
+        ("socket-binding-group" => "standard-sockets"),
+        ("socket-binding" => "txn-recovery-environment")
+    ],
+    "operation" => "add",
+    "port" => 4712
+}, {
+    "address" => [
+        ("socket-binding-group" => "standard-sockets"),
+        ("socket-binding" => "txn-status-manager")
+    ],
+    "operation" => "add",
+    "port" => 4713
+}, {
+    "operation" => "add",
+    "host" => "localhost",
+    "port" => 25,
+    "address" => [
+        ("socket-binding-group" => "standard-sockets"),
+        ("remote-destination-outbound-socket-binding" => "mail-smtp")
+    ]
+}, {
+    "operation" => "parallel-subsystem-boot",
+    "address" => []
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "logging")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "logging"),
+        ("pattern-formatter" => "PATTERN")
+    ],
+    "pattern" => "%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c] (%t) %s%e%n"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "logging"),
+        ("pattern-formatter" => "COLOR-PATTERN")
+    ],
+    "pattern" => "%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%e%n"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "logging"),
+        ("console-handler" => "CONSOLE")
+    ],
+    "level" => "INFO",
+    "named-formatter" => "COLOR-PATTERN"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "logging"),
+        ("periodic-rotating-file-handler" => "FILE")
+    ],
+    "autoflush" => true,
+    "named-formatter" => "PATTERN",
+    "file" => {
+        "relative-to" => "jboss.server.log.dir",
+        "path" => "server.log"
+    },
+    "suffix" => ".yyyy-MM-dd",
+    "append" => true
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "logging"),
+        ("logger" => "com.arjuna")
+    ],
+    "level" => "WARN"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "logging"),
+        ("logger" => "org.jboss.as.config")
+    ],
+    "level" => "DEBUG"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "logging"),
+        ("logger" => "sun.rmi")
+    ],
+    "level" => "WARN"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "logging"),
+        ("root-logger" => "ROOT")
+    ],
+    "level" => "INFO",
+    "handlers" => [
+        "CONSOLE",
+        "FILE"
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "batch-jberet")],
+    "default-job-repository" => "in-memory",
+    "default-thread-pool" => "batch"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "batch-jberet"),
+        ("in-memory-job-repository" => "in-memory")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "batch-jberet"),
+        ("thread-pool" => "batch")
+    ],
+    "max-threads" => 10,
+    "keepalive-time" => {
+        "time" => 30L,
+        "unit" => "SECONDS"
+    }
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "bean-validation")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "core-management")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "datasources")]
+}, {
+    "operation" => "add",
+    "jndi-name" => "java:jboss/datasources/ExampleDS",
+    "enabled" => true,
+    "use-java-context" => true,
+    "address" => [
+        ("subsystem" => "datasources"),
+        ("data-source" => "ExampleDS")
+    ],
+    "connection-url" => "jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE",
+    "driver-name" => "h2",
+    "user-name" => "sa",
+    "password" => "sa"
+}, {
+    "operation" => "add",
+    "jndi-name" => "java:/AppDS",
+    "enabled" => true,
+    "address" => [
+        ("subsystem" => "datasources"),
+        ("data-source" => "AppDS")
+    ],
+    "connection-url" => "jdbc:oracle:thin:@localhost:1521:xe",
+    "driver-name" => "oracle",
+    "min-pool-size" => 1,
+    "max-pool-size" => 5,
+    "pool-prefill" => true,
+    "user-name" => "SYSTEM",
+    "password" => "admin"
+}, {
+    "operation" => "add",
+    "driver-name" => "h2",
+    "driver-major-version" => undefined,
+    "driver-minor-version" => undefined,
+    "driver-module-name" => "com.h2database.h2",
+    "address" => [
+        ("subsystem" => "datasources"),
+        ("jdbc-driver" => "h2")
+    ],
+    "driver-xa-datasource-class-name" => "org.h2.jdbcx.JdbcDataSource"
+}, {
+    "operation" => "add",
+    "driver-name" => "oracle",
+    "driver-major-version" => undefined,
+    "driver-minor-version" => undefined,
+    "driver-module-name" => "com.oracle.ojdbc6",
+    "address" => [
+        ("subsystem" => "datasources"),
+        ("jdbc-driver" => "oracle")
+    ],
+    "driver-xa-datasource-class-name" => "oracle.jdbc.OracleDriver"
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "deployment-scanner")]
+}, {
+    "operation" => "add",
+    "path" => "deployments",
+    "relative-to" => "jboss.server.base.dir",
+    "scan-interval" => 5000,
+    "runtime-failure-causes-rollback" => expression "${jboss.deployment.scanner.rollback.on.failure:false}",
+    "address" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "ee")],
+    "spec-descriptor-property-replacement" => false
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ee"),
+        ("context-service" => "default")
+    ],
+    "jndi-name" => "java:jboss/ee/concurrency/context/default",
+    "use-transaction-setup-provider" => true
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ee"),
+        ("managed-thread-factory" => "default")
+    ],
+    "jndi-name" => "java:jboss/ee/concurrency/factory/default",
+    "context-service" => "default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ee"),
+        ("managed-executor-service" => "default")
+    ],
+    "jndi-name" => "java:jboss/ee/concurrency/executor/default",
+    "context-service" => "default",
+    "hung-task-threshold" => 60000L,
+    "keepalive-time" => 5000L
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ee"),
+        ("managed-scheduled-executor-service" => "default")
+    ],
+    "jndi-name" => "java:jboss/ee/concurrency/scheduler/default",
+    "context-service" => "default",
+    "hung-task-threshold" => 60000L,
+    "keepalive-time" => 3000L
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ee"),
+        ("service" => "default-bindings")
+    ],
+    "context-service" => "java:jboss/ee/concurrency/context/default",
+    "datasource" => "java:jboss/datasources/ExampleDS",
+    "managed-executor-service" => "java:jboss/ee/concurrency/executor/default",
+    "managed-scheduled-executor-service" => "java:jboss/ee/concurrency/scheduler/default",
+    "managed-thread-factory" => "java:jboss/ee/concurrency/factory/default"
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "ejb3")],
+    "default-slsb-instance-pool" => "slsb-strict-max-pool",
+    "default-stateful-bean-access-timeout" => 5000L,
+    "default-sfsb-cache" => "simple",
+    "default-sfsb-passivation-disabled-cache" => "simple",
+    "default-singleton-bean-access-timeout" => 5000L,
+    "default-security-domain" => "other",
+    "default-missing-method-permissions-deny-access" => true,
+    "log-system-exceptions" => true
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("strict-max-bean-instance-pool" => "slsb-strict-max-pool")
+    ],
+    "derive-size" => "from-worker-pools",
+    "timeout" => 5L,
+    "timeout-unit" => "MINUTES"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("strict-max-bean-instance-pool" => "mdb-strict-max-pool")
+    ],
+    "derive-size" => "from-cpu-count",
+    "timeout" => 5L,
+    "timeout-unit" => "MINUTES"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("cache" => "simple")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("cache" => "distributable")
+    ],
+    "passivation-store" => "infinispan",
+    "aliases" => [
+        "passivating",
+        "clustered"
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("passivation-store" => "infinispan")
+    ],
+    "cache-container" => "ejb",
+    "max-size" => 10000
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("service" => "async")
+    ],
+    "thread-pool-name" => "default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("service" => "timer-service")
+    ],
+    "thread-pool-name" => "default",
+    "default-data-store" => "default-file-store"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("service" => "timer-service"),
+        ("file-data-store" => "default-file-store")
+    ],
+    "path" => "timer-service-data",
+    "relative-to" => "jboss.server.data.dir"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("service" => "remote")
+    ],
+    "connector-ref" => "http-remoting-connector",
+    "thread-pool-name" => "default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("service" => "remote"),
+        ("channel-creation-options" => "READ_TIMEOUT")
+    ],
+    "value" => expression "${prop.remoting-connector.read.timeout:20}",
+    "type" => "xnio"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("service" => "remote"),
+        ("channel-creation-options" => "MAX_OUTBOUND_MESSAGES")
+    ],
+    "value" => "1234",
+    "type" => "remoting"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "ejb3"),
+        ("thread-pool" => "default")
+    ],
+    "max-threads" => 10,
+    "keepalive-time" => {
+        "time" => 100L,
+        "unit" => "MILLISECONDS"
+    }
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "elytron")],
+    "final-providers" => "combined-providers",
+    "disallowed-providers" => ["OracleUcrypto"]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("aggregate-providers" => "combined-providers")
+    ],
+    "providers" => [
+        "elytron",
+        "openssl"
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("provider-loader" => "elytron")
+    ],
+    "module" => "org.wildfly.security.elytron"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("provider-loader" => "openssl")
+    ],
+    "module" => "org.wildfly.openssl"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("file-audit-log" => "local-audit")
+    ],
+    "path" => "audit.log",
+    "relative-to" => "jboss.server.log.dir",
+    "format" => "JSON"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("security-domain" => "ApplicationDomain")
+    ],
+    "default-realm" => "ApplicationRealm",
+    "permission-mapper" => "default-permission-mapper",
+    "realms" => [
+        {
+            "realm" => "ApplicationRealm",
+            "role-decoder" => "groups-to-roles"
+        },
+        {"realm" => "local"}
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("security-domain" => "ManagementDomain")
+    ],
+    "default-realm" => "ManagementRealm",
+    "permission-mapper" => "default-permission-mapper",
+    "realms" => [
+        {
+            "realm" => "ManagementRealm",
+            "role-decoder" => "groups-to-roles"
+        },
+        {
+            "realm" => "local",
+            "role-mapper" => "super-user-mapper"
+        }
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("identity-realm" => "local")
+    ],
+    "identity" => "$local"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("properties-realm" => "ApplicationRealm")
+    ],
+    "users-properties" => {
+        "path" => "application-users.properties",
+        "relative-to" => "jboss.server.config.dir",
+        "digest-realm-name" => "ApplicationRealm"
+    },
+    "groups-properties" => {
+        "path" => "application-roles.properties",
+        "relative-to" => "jboss.server.config.dir"
+    }
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("properties-realm" => "ManagementRealm")
+    ],
+    "users-properties" => {
+        "path" => "mgmt-users.properties",
+        "relative-to" => "jboss.server.config.dir",
+        "digest-realm-name" => "ManagementRealm"
+    },
+    "groups-properties" => {
+        "path" => "mgmt-groups.properties",
+        "relative-to" => "jboss.server.config.dir"
+    }
+}, {
+    "operation" => "add",
+    "mapping-mode" => "first",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("simple-permission-mapper" => "default-permission-mapper")
+    ],
+    "permission-mappings" => [
+        {
+            "principals" => ["anonymous"],
+            "permissions" => [
+                {
+                    "class-name" => "org.wildfly.extension.batch.jberet.deployment.BatchPermission",
+                    "module" => "org.wildfly.extension.batch.jberet",
+                    "target-name" => "*"
+                },
+                {
+                    "class-name" => "org.wildfly.transaction.client.RemoteTransactionPermission",
+                    "module" => "org.wildfly.transaction.client"
+                },
+                {
+                    "class-name" => "org.jboss.ejb.client.RemoteEJBPermission",
+                    "module" => "org.jboss.ejb-client"
+                }
+            ]
+        },
+        {
+            "match-all" => true,
+            "permissions" => [
+                {"class-name" => "org.wildfly.security.auth.permission.LoginPermission"},
+                {
+                    "class-name" => "org.wildfly.extension.batch.jberet.deployment.BatchPermission",
+                    "module" => "org.wildfly.extension.batch.jberet",
+                    "target-name" => "*"
+                },
+                {
+                    "class-name" => "org.wildfly.transaction.client.RemoteTransactionPermission",
+                    "module" => "org.wildfly.transaction.client"
+                },
+                {
+                    "class-name" => "org.jboss.ejb.client.RemoteEJBPermission",
+                    "module" => "org.jboss.ejb-client"
+                }
+            ]
+        }
+    ]
+}, {
+    "operation" => "add",
+    "realm-name" => "local",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("constant-realm-mapper" => "local")
+    ]
+}, {
+    "operation" => "add",
+    "attribute" => "groups",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("simple-role-decoder" => "groups-to-roles")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("constant-role-mapper" => "super-user-mapper")
+    ],
+    "roles" => ["SuperUser"]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("http-authentication-factory" => "management-http-authentication")
+    ],
+    "http-server-mechanism-factory" => "global",
+    "security-domain" => "ManagementDomain",
+    "mechanism-configurations" => [{
+        "mechanism-name" => "DIGEST",
+        "mechanism-realm-configurations" => [{"realm-name" => "ManagementRealm"}]
+    }]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("http-authentication-factory" => "application-http-authentication")
+    ],
+    "http-server-mechanism-factory" => "global",
+    "security-domain" => "ApplicationDomain",
+    "mechanism-configurations" => [
+        {
+            "mechanism-name" => "BASIC",
+            "mechanism-realm-configurations" => [{"realm-name" => "Application Realm"}]
+        },
+        {"mechanism-name" => "FORM"}
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("provider-http-server-mechanism-factory" => "global")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("sasl-authentication-factory" => "management-sasl-authentication")
+    ],
+    "sasl-server-factory" => "configured",
+    "security-domain" => "ManagementDomain",
+    "mechanism-configurations" => [
+        {
+            "mechanism-name" => "JBOSS-LOCAL-USER",
+            "realm-mapper" => "local"
+        },
+        {
+            "mechanism-name" => "DIGEST-MD5",
+            "mechanism-realm-configurations" => [{"realm-name" => "ManagementRealm"}]
+        }
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("sasl-authentication-factory" => "application-sasl-authentication")
+    ],
+    "sasl-server-factory" => "configured",
+    "security-domain" => "ApplicationDomain",
+    "mechanism-configurations" => [
+        {
+            "mechanism-name" => "JBOSS-LOCAL-USER",
+            "realm-mapper" => "local"
+        },
+        {
+            "mechanism-name" => "DIGEST-MD5",
+            "mechanism-realm-configurations" => [{"realm-name" => "ApplicationRealm"}]
+        }
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("configurable-sasl-server-factory" => "configured")
+    ],
+    "sasl-server-factory" => "elytron",
+    "properties" => {"wildfly.sasl.local-user.default-user" => "$local"}
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("mechanism-provider-filtering-sasl-server-factory" => "elytron")
+    ],
+    "sasl-server-factory" => "global",
+    "filters" => [{"provider-name" => "WildFlyElytron"}]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "elytron"),
+        ("provider-sasl-server-factory" => "global")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "io")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "io"),
+        ("worker" => "default")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "io"),
+        ("buffer-pool" => "default")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "infinispan")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "server")
+    ],
+    "default-cache" => "default",
+    "module" => "org.wildfly.clustering.server"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "server"),
+        ("local-cache" => "default")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "server"),
+        ("local-cache" => "default"),
+        ("component" => "transaction")
+    ],
+    "mode" => "BATCH"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "web")
+    ],
+    "default-cache" => "passivation",
+    "module" => "org.wildfly.clustering.web.infinispan"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "web"),
+        ("local-cache" => "passivation")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "web"),
+        ("local-cache" => "passivation"),
+        ("component" => "locking")
+    ],
+    "isolation" => "REPEATABLE_READ"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "web"),
+        ("local-cache" => "passivation"),
+        ("component" => "transaction")
+    ],
+    "mode" => "BATCH"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "web"),
+        ("local-cache" => "passivation"),
+        ("store" => "file")
+    ],
+    "passivation" => true,
+    "purge" => false
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "ejb")
+    ],
+    "aliases" => ["sfsb"],
+    "default-cache" => "passivation",
+    "module" => "org.wildfly.clustering.ejb.infinispan"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "ejb"),
+        ("local-cache" => "passivation")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "ejb"),
+        ("local-cache" => "passivation"),
+        ("component" => "locking")
+    ],
+    "isolation" => "REPEATABLE_READ"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "ejb"),
+        ("local-cache" => "passivation"),
+        ("component" => "transaction")
+    ],
+    "mode" => "BATCH"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "ejb"),
+        ("local-cache" => "passivation"),
+        ("store" => "file")
+    ],
+    "passivation" => true,
+    "purge" => false
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate")
+    ],
+    "module" => "org.hibernate.infinispan"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate"),
+        ("local-cache" => "entity")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate"),
+        ("local-cache" => "entity"),
+        ("component" => "transaction")
+    ],
+    "mode" => "NON_XA"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate"),
+        ("local-cache" => "entity"),
+        ("component" => "eviction")
+    ],
+    "strategy" => "LRU",
+    "max-entries" => 10000L
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate"),
+        ("local-cache" => "entity"),
+        ("component" => "expiration")
+    ],
+    "max-idle" => 100000L
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate"),
+        ("local-cache" => "local-query")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate"),
+        ("local-cache" => "local-query"),
+        ("component" => "eviction")
+    ],
+    "strategy" => "LRU",
+    "max-entries" => 10000L
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate"),
+        ("local-cache" => "local-query"),
+        ("component" => "expiration")
+    ],
+    "max-idle" => 100000L
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "infinispan"),
+        ("cache-container" => "hibernate"),
+        ("local-cache" => "timestamps")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "jaxrs")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "jca")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jca"),
+        ("archive-validation" => "archive-validation")
+    ],
+    "enabled" => true,
+    "fail-on-error" => true,
+    "fail-on-warn" => false
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jca"),
+        ("bean-validation" => "bean-validation")
+    ],
+    "enabled" => true
+}, {
+    "operation" => "add",
+    "name" => "default",
+    "address" => [
+        ("subsystem" => "jca"),
+        ("workmanager" => "default")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jca"),
+        ("workmanager" => "default"),
+        ("short-running-threads" => "default")
+    ],
+    "core-threads" => 50,
+    "queue-length" => 50,
+    "max-threads" => 50,
+    "keepalive-time" => {
+        "time" => 10L,
+        "unit" => "SECONDS"
+    }
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jca"),
+        ("workmanager" => "default"),
+        ("long-running-threads" => "default")
+    ],
+    "core-threads" => 50,
+    "queue-length" => 50,
+    "max-threads" => 50,
+    "keepalive-time" => {
+        "time" => 10L,
+        "unit" => "SECONDS"
+    }
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jca"),
+        ("bootstrap-context" => "default")
+    ],
+    "workmanager" => "default",
+    "name" => "default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jca"),
+        ("cached-connection-manager" => "cached-connection-manager")
+    ],
+    "install" => true
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "jdr")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "jmx")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jmx"),
+        ("expose-model" => "resolved")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jmx"),
+        ("expose-model" => "expression")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "jmx"),
+        ("remoting-connector" => "jmx")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "jpa")],
+    "default-datasource" => "",
+    "default-extended-persistence-inheritance" => "DEEP"
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "jsf")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "mail")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "mail"),
+        ("mail-session" => "default")
+    ],
+    "jndi-name" => "java:jboss/mail/Default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "mail"),
+        ("mail-session" => "default"),
+        ("server" => "smtp")
+    ],
+    "outbound-socket-binding-ref" => "mail-smtp"
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "naming")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "naming"),
+        ("service" => "remote-naming")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "pojo")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "remoting")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "remoting"),
+        ("configuration" => "endpoint")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "remoting"),
+        ("http-connector" => "http-remoting-connector")
+    ],
+    "connector-ref" => "default",
+    "security-realm" => "ApplicationRealm"
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "resource-adapters")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "request-controller")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "sar")]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "security-manager")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security-manager"),
+        ("deployment-permissions" => "default")
+    ],
+    "maximum-permissions" => [{"class" => "java.security.AllPermission"}]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "security")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "other")
+    ],
+    "cache-type" => "default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "other"),
+        ("authentication" => "classic")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "other"),
+        ("authentication" => "classic"),
+        ("login-module" => "Remoting")
+    ],
+    "code" => "Remoting",
+    "flag" => "optional",
+    "module-options" => {"password-stacking" => "useFirstPass"}
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "other"),
+        ("authentication" => "classic"),
+        ("login-module" => "RealmDirect")
+    ],
+    "code" => "RealmDirect",
+    "flag" => "required",
+    "module-options" => {"password-stacking" => "useFirstPass"}
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jboss-web-policy")
+    ],
+    "cache-type" => "default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jboss-web-policy"),
+        ("authorization" => "classic")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jboss-web-policy"),
+        ("authorization" => "classic"),
+        ("policy-module" => "Delegating")
+    ],
+    "code" => "Delegating",
+    "flag" => "required"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jboss-ejb-policy")
+    ],
+    "cache-type" => "default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jboss-ejb-policy"),
+        ("authorization" => "classic")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jboss-ejb-policy"),
+        ("authorization" => "classic"),
+        ("policy-module" => "Delegating")
+    ],
+    "code" => "Delegating",
+    "flag" => "required"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jaspitest")
+    ],
+    "cache-type" => "default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jaspitest"),
+        ("authentication" => "jaspi")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jaspitest"),
+        ("authentication" => "jaspi"),
+        ("login-module-stack" => "dummy")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jaspitest"),
+        ("authentication" => "jaspi"),
+        ("login-module-stack" => "dummy"),
+        ("login-module" => "Dummy")
+    ],
+    "code" => "Dummy",
+    "flag" => "optional"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "security"),
+        ("security-domain" => "jaspitest"),
+        ("authentication" => "jaspi"),
+        ("auth-module" => "Dummy")
+    ],
+    "code" => "Dummy"
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "transactions")],
+    "process-id-uuid" => true,
+    "socket-binding" => "txn-recovery-environment",
+    "status-socket-binding" => "txn-status-manager",
+    "object-store-path" => "tx-object-store",
+    "object-store-relative-to" => "jboss.server.data.dir"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "transactions"),
+        ("log-store" => "log-store")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "undertow")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("configuration" => "filter")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("configuration" => "handler")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("buffer-cache" => "default")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("server" => "default-server")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("server" => "default-server"),
+        ("http-listener" => "default")
+    ],
+    "socket-binding" => "http",
+    "redirect-socket" => "https",
+    "enable-http2" => true
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("server" => "default-server"),
+        ("https-listener" => "https")
+    ],
+    "socket-binding" => "https",
+    "security-realm" => "ApplicationRealm",
+    "enable-http2" => true
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("server" => "default-server"),
+        ("host" => "default-host")
+    ],
+    "alias" => ["localhost"]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("server" => "default-server"),
+        ("host" => "default-host"),
+        ("location" => "/")
+    ],
+    "handler" => "welcome-content"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("server" => "default-server"),
+        ("host" => "default-host"),
+        ("filter-ref" => "server-header")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("server" => "default-server"),
+        ("host" => "default-host"),
+        ("filter-ref" => "x-powered-by-header")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("server" => "default-server"),
+        ("host" => "default-host"),
+        ("setting" => "http-invoker")
+    ],
+    "security-realm" => "ApplicationRealm"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("servlet-container" => "default")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("servlet-container" => "default"),
+        ("setting" => "jsp")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("servlet-container" => "default"),
+        ("setting" => "websockets")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("configuration" => "handler"),
+        ("file" => "welcome-content")
+    ],
+    "path" => expression "${jboss.home.dir}/welcome-content"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("configuration" => "filter"),
+        ("response-header" => "server-header")
+    ],
+    "header-name" => "Server",
+    "header-value" => "WildFly/11"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "undertow"),
+        ("configuration" => "filter"),
+        ("response-header" => "x-powered-by-header")
+    ],
+    "header-name" => "X-Powered-By",
+    "header-value" => "Undertow/1"
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "webservices")],
+    "wsdl-host" => expression "${jboss.bind.address:127.0.0.1}"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "webservices"),
+        ("endpoint-config" => "Standard-Endpoint-Config")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "webservices"),
+        ("endpoint-config" => "Recording-Endpoint-Config")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "webservices"),
+        ("endpoint-config" => "Recording-Endpoint-Config"),
+        ("pre-handler-chain" => "recording-handlers")
+    ],
+    "protocol-bindings" => "##SOAP11_HTTP ##SOAP11_HTTP_MTOM ##SOAP12_HTTP ##SOAP12_HTTP_MTOM"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "webservices"),
+        ("endpoint-config" => "Recording-Endpoint-Config"),
+        ("pre-handler-chain" => "recording-handlers"),
+        ("handler" => "RecordingHandler")
+    ],
+    "class" => "org.jboss.ws.common.invocation.RecordingServerHandler"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "webservices"),
+        ("client-config" => "Standard-Client-Config")
+    ]
+}, {
+    "operation" => "add",
+    "address" => [("subsystem" => "weld")]
+}, {
+    "operation" => "boottime-controller-initializer-step",
+    "address" => []
+}, {
+    "operation" => "add-deployer-chains",
+    "address" => []
+}]: java.util.concurrent.RejectedExecutionException: Task org.jboss.as.controller.notification.NotificationSupports$NonBlockingNotificationSupport$1@53e8d282 rejected from java.util.concurrent.ThreadPoolExecutor@48a5f1e3[Shutting down, pool size = 30, active threads = 30, queued tasks = 0, completed tasks = 97]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+	at org.jboss.as.controller.notification.NotificationSupports$NonBlockingNotificationSupport.emit(NotificationSupports.java:95)
+	at org.jboss.as.controller.OperationContextImpl.notifyModificationsComplete(OperationContextImpl.java:502)
+	at org.jboss.as.controller.OperationContextImpl.releaseStepLocks(OperationContextImpl.java:1220)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1462)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1420)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1284)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:857)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:739)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:450)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1402)
+	at org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:516)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:468)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:430)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:437)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:396)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:370)
+	at java.lang.Thread.run(Thread.java:748)
+

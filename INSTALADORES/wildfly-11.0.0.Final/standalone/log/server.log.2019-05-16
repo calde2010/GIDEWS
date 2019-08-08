@@ -1,0 +1,488 @@
+2019-05-16 18:03:59,469 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2019-05-16 18:03:59,473 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-05-16 18:03:59,471 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2019-05-16 18:03:59,469 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2019-05-16 18:03:59,468 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2019-05-16 18:03:59,459 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-05-16 18:03:59,496 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-05-16 18:03:59,554 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2019-05-16 18:03:59,562 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2019-05-16 18:03:59,618 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-05-16 18:03:59,702 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2019-05-16 18:03:59,750 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-05-16 18:03:59,795 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2019-05-16 18:03:59,839 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.18.Final starting
+2019-05-16 18:03:59,862 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-05-16 18:03:59,886 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.5.Final
+2019-05-16 18:04:00,168 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2019-05-16 18:04:00,172 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2019-05-16 18:04:00,235 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2019-05-16 18:04:00,380 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = oracle
+2019-05-16 18:04:00,663 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-05-16 18:04:00,673 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2019-05-16 18:04:00,698 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2019-05-16 18:04:00,888 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service org.wildfly.undertow.listener.default: org.jboss.msc.service.StartException in service org.wildfly.undertow.listener.default: Address already in use: bind /127.0.0.1:8080
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:179)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-05-16 18:04:00,954 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2019-05-16 18:04:01,111 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-05-16 18:04:01,111 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/AppDS]
+2019-05-16 18:04:13,364 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2019-05-16 18:04:13,397 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore C:\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-05-16 18:04:13,412 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly-11.0.0.Final\standalone\deployments
+2019-05-16 18:04:13,437 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "GIDE_WS.war" (runtime-name: "GIDE_WS.war")
+2019-05-16 18:04:14,200 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2019-05-16 18:04:32,308 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,356 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,368 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,373 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,382 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,396 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,404 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,409 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,420 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,422 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,437 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,438 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jsr250-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,441 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,443 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,452 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jsr173_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,456 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry sjsxp.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,459 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry resolver.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,463 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,464 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,465 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,470 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,486 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,493 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry stax-utils.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,497 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxws-rt.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,501 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,503 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,509 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxp-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,519 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jax-qname.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,524 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,525 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry servlet.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,529 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,530 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,539 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry webservices-extra-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/webservices-api-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:04:32,566 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.undertow.listener.default" => "Address already in use: bind /127.0.0.1:8080"}}
+2019-05-16 18:04:32,620 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "GIDE_WS.war" (runtime-name : "GIDE_WS.war")
+2019-05-16 18:04:32,622 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.undertow.listener.default: Address already in use: bind /127.0.0.1:8080
+
+2019-05-16 18:04:32,737 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-05-16 18:04:32,744 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-05-16 18:04:32,745 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-05-16 18:04:32,745 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started (with errors) in 56612ms - Started 295 of 562 services (3 services failed or missing dependencies, 348 services are lazy, passive or on-demand)
+2019-05-16 18:05:08,743 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2019-05-16 18:05:08,766 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-05-16 18:05:08,772 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:/AppDS]
+2019-05-16 18:05:08,773 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2019-05-16 18:05:08,785 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2019-05-16 18:05:08,786 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2019-05-16 18:05:08,795 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 1.4.18.Final stopping
+2019-05-16 18:05:08,803 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2019-05-16 18:05:08,810 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = oracle
+2019-05-16 18:05:08,890 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment GIDE_WS.war (runtime-name: GIDE_WS.war) in 142ms
+2019-05-16 18:05:08,902 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 148ms
+2019-05-16 18:05:55,619 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2019-05-16 18:05:55,948 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2019-05-16 18:05:56,071 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2019-05-16 18:05:56,073 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\wildfly-11.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_201\jre
+	java.io.tmpdir = C:\Users\Lenovo\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_201\\bin;C:\Program Files\nodejs\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Local\GitHubDesktop\bin;C:\Users\Lenovo\AppData\Local\atom\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_201-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_201
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.201-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\wildfly-11.0.0.Final
+	jboss.host.name = desktop-679ulba
+	jboss.modules.dir = C:\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-679ulba
+	jboss.qualified.host.name = desktop-679ulba
+	jboss.server.base.dir = C:\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = C:\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = desktop-679ulba
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly-11.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = C:\wildfly-11.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\wildfly-11.0.0.Final\jboss-modules.jar -mp C:\wildfly-11.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\wildfly-11.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = CO
+	user.dir = C:\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\Lenovo
+	user.language = es
+	user.name = Lenovo
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-05-16 18:05:56,073 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\wildfly-11.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\wildfly-11.0.0.Final\standalone\configuration/logging.properties 
+2019-05-16 18:05:57,541 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-05-16 18:05:57,572 INFO  [org.wildfly.security] (ServerService Thread Pool -- 5) ELY00001: WildFly Elytron version 1.1.6.Final
+2019-05-16 18:05:57,623 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 7) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-05-16 18:05:57,929 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-05-16 18:05:57,953 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.5.4.Final
+2019-05-16 18:05:57,966 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.5.4.Final
+2019-05-16 18:05:58,027 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-05-16 18:05:58,039 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2019-05-16 18:05:58,054 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2019-05-16 18:05:58,065 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-05-16 18:05:58,068 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2019-05-16 18:05:58,079 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-05-16 18:05:58,162 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-05-16 18:05:58,186 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-05-16 18:05:58,193 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2019-05-16 18:05:58,201 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2019-05-16 18:05:58,202 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2019-05-16 18:05:58,244 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.18.Final starting
+2019-05-16 18:05:58,293 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2019-05-16 18:05:58,297 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.5.Final
+2019-05-16 18:05:58,381 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = oracle
+2019-05-16 18:05:58,449 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-05-16 18:05:58,452 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2019-05-16 18:05:58,534 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2019-05-16 18:05:58,543 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2019-05-16 18:05:58,582 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2019-05-16 18:05:58,657 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-05-16 18:05:58,727 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2019-05-16 18:05:58,819 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2019-05-16 18:05:59,047 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2019-05-16 18:05:59,078 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-05-16 18:05:59,101 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly-11.0.0.Final\standalone\deployments
+2019-05-16 18:05:59,119 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "GIDE_WS.war" (runtime-name: "GIDE_WS.war")
+2019-05-16 18:05:59,528 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8181
+2019-05-16 18:05:59,594 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: EJB subsystem suspension complete
+2019-05-16 18:05:59,699 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/AppDS]
+2019-05-16 18:05:59,701 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-05-16 18:05:59,877 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2019-05-16 18:06:03,127 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2019-05-16 18:06:04,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,882 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,890 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,896 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,898 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,901 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,903 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,904 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,910 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr250-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,912 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,913 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,914 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr173_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,915 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry sjsxp.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,916 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry resolver.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,917 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,924 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,926 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,928 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,930 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,931 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry stax-utils.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,938 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxws-rt.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,940 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,941 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,943 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxp-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,944 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jax-qname.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,948 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,950 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry servlet.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,953 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,953 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:04,956 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry webservices-extra-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/webservices-api-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:06:07,061 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2019-05-16 18:06:07,359 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2019-05-16 18:06:08,728 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-5) JBWS024061: Adding service endpoint metadata: id=co.gide.ws.EnviarArchivoElectronico
+ address=http://localhost:8181/GIDE_WS/GIDEService
+ implementor=co.gide.ws.EnviarArchivoElectronico
+ serviceName={http://www.growupit.com.co/GIDEService}GIDEService
+ portName={http://www.growupit.com.co/GIDEService}GIDEServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2019-05-16 18:06:09,325 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-5) Creating Service {http://www.growupit.com.co/GIDEService}GIDEService from class co.gide.ws.EnviarArchivoElectronico
+2019-05-16 18:06:10,073 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-5) Setting the server's publish address to be http://localhost:8181/GIDE_WS/GIDEService
+2019-05-16 18:06:10,502 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-5) JBWS024074: WSDL published to: file:/C:/wildfly-11.0.0.Final/standalone/data/wsdl/GIDE_WS.war/GIDEService.wsdl
+2019-05-16 18:06:10,570 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0003: Starting service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-05-16 18:06:10,748 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: '/GIDE_WS' for server 'default-server'
+2019-05-16 18:06:10,763 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "GIDE_WS.war" (runtime-name : "GIDE_WS.war")
+2019-05-16 18:06:10,858 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-05-16 18:06:10,864 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-05-16 18:06:10,865 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-05-16 18:06:10,866 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 15609ms - Started 409 of 637 services (354 services are lazy, passive or on-demand)
+2019-05-16 18:20:36,212 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2019-05-16 18:20:36,234 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/AppDS]
+2019-05-16 18:20:36,241 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0022: Unregistered web context: '/GIDE_WS' from server 'default-server'
+2019-05-16 18:20:36,248 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = oracle
+2019-05-16 18:20:36,255 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0004: Stopping service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-05-16 18:20:36,258 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-05-16 18:20:36,262 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2019-05-16 18:20:36,264 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2019-05-16 18:20:36,286 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2019-05-16 18:20:36,348 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2019-05-16 18:20:36,351 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2019-05-16 18:20:36,352 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8181
+2019-05-16 18:20:36,361 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2019-05-16 18:20:36,365 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.4.18.Final stopping
+2019-05-16 18:20:36,446 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment GIDE_WS.war (runtime-name: GIDE_WS.war) in 230ms
+2019-05-16 18:22:17,058 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 100836ms
+2019-05-16 18:23:07,564 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2019-05-16 18:23:08,381 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2019-05-16 18:23:08,583 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2019-05-16 18:23:08,585 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\wildfly-11.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_201\jre
+	java.io.tmpdir = C:\Users\Lenovo\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_201\\bin;C:\Program Files\nodejs\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Local\GitHubDesktop\bin;C:\Users\Lenovo\AppData\Local\atom\bin;C:\LEO\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_201-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_201
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.201-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly-11.0.0.Final
+	jboss.host.name = desktop-679ulba
+	jboss.modules.dir = C:\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-679ulba
+	jboss.qualified.host.name = desktop-679ulba
+	jboss.server.base.dir = C:\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = C:\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = desktop-679ulba
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly-11.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = C:\wildfly-11.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11 at localhost
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly-11.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly-11.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CO
+	user.dir = C:\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\Lenovo
+	user.language = es
+	user.name = Lenovo
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-05-16 18:23:08,587 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 at localhost -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly-11.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly-11.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2019-05-16 18:23:11,107 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-05-16 18:23:11,152 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 24) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-05-16 18:23:11,154 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.1.6.Final
+2019-05-16 18:23:11,676 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-05-16 18:23:11,700 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.5.4.Final
+2019-05-16 18:23:11,714 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.5.4.Final
+2019-05-16 18:23:11,788 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2019-05-16 18:23:11,794 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2019-05-16 18:23:11,802 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-05-16 18:23:11,820 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2019-05-16 18:23:11,840 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2019-05-16 18:23:11,856 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-05-16 18:23:11,875 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.4.18.Final starting
+2019-05-16 18:23:11,909 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-05-16 18:23:11,952 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2019-05-16 18:23:11,952 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2019-05-16 18:23:11,953 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-05-16 18:23:11,954 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-05-16 18:23:11,973 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.5.Final
+2019-05-16 18:23:11,988 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2019-05-16 18:23:12,013 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2019-05-16 18:23:12,043 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-05-16 18:23:12,327 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2019-05-16 18:23:12,387 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = oracle
+2019-05-16 18:23:12,442 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2019-05-16 18:23:12,442 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2019-05-16 18:23:12,623 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-05-16 18:23:12,703 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2019-05-16 18:23:12,705 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2019-05-16 18:23:12,997 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2019-05-16 18:23:13,029 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-05-16 18:23:13,051 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly-11.0.0.Final\standalone\deployments
+2019-05-16 18:23:13,058 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "GIDE_WS.war" (runtime-name: "GIDE_WS.war")
+2019-05-16 18:23:13,551 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8181
+2019-05-16 18:23:13,893 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+2019-05-16 18:23:14,000 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-05-16 18:23:14,000 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/AppDS]
+2019-05-16 18:23:14,394 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2019-05-16 18:23:14,518 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2019-05-16 18:23:19,775 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,776 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,776 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,777 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,778 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,778 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,780 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,780 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,783 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,783 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,783 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr250-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,784 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,784 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,785 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr173_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,785 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry sjsxp.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,785 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry resolver.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,786 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,786 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,786 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,787 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,788 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,788 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry stax-utils.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,789 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxws-rt.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,790 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,791 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,792 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxp-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,793 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jax-qname.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,794 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,795 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry servlet.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,796 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,797 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:19,799 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry webservices-extra-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/webservices-api-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2019-05-16 18:23:20,697 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2019-05-16 18:23:20,803 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-7) JBWS024061: Adding service endpoint metadata: id=co.gide.ws.EnviarArchivoElectronico
+ address=http://localhost:8181/GIDE_WS/GIDEService
+ implementor=co.gide.ws.EnviarArchivoElectronico
+ serviceName={http://www.growupit.com.co/GIDEService}GIDEService
+ portName={http://www.growupit.com.co/GIDEService}GIDEServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2019-05-16 18:23:21,257 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2019-05-16 18:23:21,586 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-7) Creating Service {http://www.growupit.com.co/GIDEService}GIDEService from class co.gide.ws.EnviarArchivoElectronico
+2019-05-16 18:23:22,622 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-7) Setting the server's publish address to be http://localhost:8181/GIDE_WS/GIDEService
+2019-05-16 18:23:23,206 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-7) JBWS024074: WSDL published to: file:/C:/wildfly-11.0.0.Final/standalone/data/wsdl/GIDE_WS.war/GIDEService.wsdl
+2019-05-16 18:23:23,283 INFO  [org.jboss.as.webservices] (MSC service thread 1-7) WFLYWS0003: Starting service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-05-16 18:23:23,482 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: '/GIDE_WS' for server 'default-server'
+2019-05-16 18:23:23,531 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "GIDE_WS.war" (runtime-name : "GIDE_WS.war")
+2019-05-16 18:23:23,706 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-05-16 18:23:23,709 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-05-16 18:23:23,709 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-05-16 18:23:23,710 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 16684ms - Started 409 of 637 services (354 services are lazy, passive or on-demand)

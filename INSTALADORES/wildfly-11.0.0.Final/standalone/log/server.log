@@ -1,0 +1,1589 @@
+2019-08-08 11:01:38,980 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2019-08-08 11:01:40,766 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2019-08-08 11:01:41,002 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2019-08-08 11:01:41,003 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\wildfly-11.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_211\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_211\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_211
+	java.io.tmpdir = C:\Users\ASESOF~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Asesoftware\AppData\Local\Microsoft\WindowsApps;C:\Oracle\instantclient;C:\Users\Asesoftware\AppData\Roaming\npm;D:\leonardo\instaladores\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_211-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_211
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.211-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly-11.0.0.Final
+	jboss.host.name = desktop-dlq7jee
+	jboss.modules.dir = C:\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-dlq7jee
+	jboss.qualified.host.name = desktop-dlq7jee
+	jboss.server.base.dir = C:\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = C:\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = desktop-dlq7jee
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly-11.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = C:\wildfly-11.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11 at localhost
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_211\lib\resources.jar;C:\Program Files\Java\jre1.8.0_211\lib\rt.jar;C:\Program Files\Java\jre1.8.0_211\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_211\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_211\lib\jce.jar;C:\Program Files\Java\jre1.8.0_211\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_211\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_211\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_211\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly-11.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly-11.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CO
+	user.dir = C:\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\Asesoftware
+	user.language = es
+	user.name = Asesoftware
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-08-08 11:01:41,004 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 at localhost -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly-11.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly-11.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2019-08-08 11:01:44,324 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-08-08 11:01:44,343 INFO  [org.wildfly.security] (ServerService Thread Pool -- 24) ELY00001: WildFly Elytron version 1.1.6.Final
+2019-08-08 11:01:44,347 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-08-08 11:01:45,186 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 7) WFLYDR0001: Content added at location C:\wildfly-11.0.0.Final\standalone\data\content\9f\af56f6f1bd549d9d7a780d5cd9162a9b135e34\content
+2019-08-08 11:01:45,211 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-08-08 11:01:45,232 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.5.4.Final
+2019-08-08 11:01:45,238 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.5.4.Final
+2019-08-08 11:01:45,281 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-08-08 11:01:45,282 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2019-08-08 11:01:45,297 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-08-08 11:01:45,299 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2019-08-08 11:01:45,303 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2019-08-08 11:01:45,317 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2019-08-08 11:01:45,320 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2019-08-08 11:01:45,323 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-08-08 11:01:45,340 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2019-08-08 11:01:45,387 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2019-08-08 11:01:45,525 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 11:01:45,532 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-08-08 11:01:45,548 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.4.18.Final starting
+2019-08-08 11:01:45,549 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2019-08-08 11:01:45,550 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-08-08 11:01:45,550 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2019-08-08 11:01:45,552 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-08-08 11:01:45,620 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.5.Final
+2019-08-08 11:01:45,772 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2019-08-08 11:01:45,774 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = oracle
+2019-08-08 11:01:45,809 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2019-08-08 11:01:45,809 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2019-08-08 11:01:45,824 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-08-08 11:01:45,850 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2019-08-08 11:01:45,852 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2019-08-08 11:01:46,219 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8181
+2019-08-08 11:01:46,262 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: EJB subsystem suspension complete
+2019-08-08 11:01:46,354 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/GIDEDS]
+2019-08-08 11:01:46,354 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-08-08 11:01:48,320 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2019-08-08 11:01:48,334 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-08-08 11:01:48,338 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly-11.0.0.Final\standalone\deployments
+2019-08-08 11:01:48,347 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "GIDE_WS.war" (runtime-name: "GIDE_WS.war")
+2019-08-08 11:01:48,952 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2019-08-08 11:01:50,227 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2019-08-08 11:02:11,988 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$6.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:11,994 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$5.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:12,007 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$booleanInstance$conjunction$.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:12,026 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$4.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:12,047 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$3.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:12,457 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$14.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:12,471 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$2.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:12,474 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$booleanInstance$disjunction$.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:12,503 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$15.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:02:13,397 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry xbean.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/batik-js-1.7.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,560 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-core-2.2.11.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,561 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,561 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,562 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,562 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,563 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,564 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,564 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,565 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,565 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,566 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,566 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,566 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jsr250-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,567 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,567 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,567 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jsr173_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,568 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry sjsxp.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,568 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry resolver.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,568 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,568 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,569 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,569 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,569 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,570 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry stax-utils.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,570 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxws-rt.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,571 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,572 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,588 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxp-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,588 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jax-qname.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,589 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,589 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry servlet.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,589 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,590 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,596 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/serializer-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,610 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry webservices-extra-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/webservices-api-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,613 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry xercesImpl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,614 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:13,614 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry serializer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:02:15,040 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2019-08-08 11:02:15,381 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-8) WFLYRS0015: No Servlet declaration found for JAX-RS application.  In GIDE_WS.war either provide a class that extends javax.ws.rs.core.Application or declare a servlet class in web.xml.
+2019-08-08 11:02:15,385 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2019-08-08 11:02:15,390 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 11:02:15,391 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 11:02:15,393 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0003: Unable to instantiate driver class "org.postgresql.Driver": org.jboss.msc.service.DuplicateServiceException: Service jboss.jdbc-driver.GIDE_WS_war_org_postgresql_Driver_42_2 is already registered
+2019-08-08 11:02:15,395 WARN  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0013: Deployment GIDE_WS.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2019-08-08 11:02:15,593 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started client-mappings cache from ejb container
+2019-08-08 11:02:15,723 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-8) JBWS024061: Adding service endpoint metadata: id=co.gide.ws.EnviarArchivoElectronico
+ address=http://localhost:8181/GIDE_WS/GIDEService
+ implementor=co.gide.ws.EnviarArchivoElectronico
+ serviceName={http://www.growupit.com.co/GIDEService}GIDEService
+ portName={http://www.growupit.com.co/GIDEService}GIDEServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2019-08-08 11:02:16,387 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-8) Creating Service {http://www.growupit.com.co/GIDEService}GIDEService from class co.gide.ws.EnviarArchivoElectronico
+2019-08-08 11:02:17,234 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-8) Setting the server's publish address to be http://localhost:8181/GIDE_WS/GIDEService
+2019-08-08 11:02:18,161 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-8) JBWS024074: WSDL published to: file:/C:/wildfly-11.0.0.Final/standalone/data/wsdl/GIDE_WS.war/GIDEService.wsdl
+2019-08-08 11:02:18,208 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0003: Starting service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-08-08 11:02:18,209 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = GIDE_WS.war_org.postgresql.Driver_42_2
+2019-08-08 11:02:18,397 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: '/GIDE_WS' for server 'default-server'
+2019-08-08 11:02:18,411 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "GIDE_WS.war" (runtime-name : "GIDE_WS.war")
+2019-08-08 11:02:18,504 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-08-08 11:02:18,506 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-08-08 11:02:18,507 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-08-08 11:02:18,507 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 41263ms - Started 411 of 639 services (354 services are lazy, passive or on-demand)
+2019-08-08 11:11:41,915 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 33) WFLYDR0009: Content C:\wildfly-11.0.0.Final\standalone\data\content\cd\063dc4d853c0737fa7355e49c0ff8544ed516b is obsolete and will be removed
+2019-08-08 11:11:41,939 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 33) WFLYDR0002: Content removed from location C:\wildfly-11.0.0.Final\standalone\data\content\cd\063dc4d853c0737fa7355e49c0ff8544ed516b\content
+2019-08-08 11:17:56,473 INFO  [org.hibernate.jpa.boot.internal.PersistenceXmlParser] (default task-2) HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2019-08-08 11:17:56,485 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-2) Application {http://www.growupit.com.co/GIDEService}GIDEService#{http://www.growupit.com.co/GIDEService}EnviarArchivoElectronicoRequest has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: No Persistence provider for EntityManager named gide_PU
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:267)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:232)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:85)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:145)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:109)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:134)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.persistence.PersistenceException: No Persistence provider for EntityManager named gide_PU
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:61)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at co.gide.tx.persistence.AdminiPersistencia.iniciarPersistencia(AdminiPersistencia.java:21)
+	at co.gide.tx.transaction.TransaccionesGIGE.getAmbiente(TransaccionesGIGE.java:100)
+	at co.gide.ws.EnviarArchivoElectronico.EnviarArchivoElectronico(EnviarArchivoElectronico.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation(WSComponentInstanceAssociationInterceptor.java:56)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invokeInternal(AbstractInvocationHandler.java:161)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.lambda$invoke$0(AbstractInvocationHandler.java:116)
+	at org.jboss.as.webservices.security.SecurityDomainContextImpl.runAs(SecurityDomainContextImpl.java:124)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:115)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:169)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 59 more
+
+2019-08-08 11:46:50,431 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0010: Scan found incompletely copied file content for deployment C:\wildfly-11.0.0.Final\standalone\deployments\GIDE_WS.war. Deployment changes will not be processed until all content is complete.
+2019-08-08 11:46:54,945 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\wildfly-11.0.0.Final\standalone\data\content\51\cebbf8501acc2580a6efa321271f3cd5042082\content
+2019-08-08 11:46:55,200 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = GIDE_WS.war_org.postgresql.Driver_42_2
+2019-08-08 11:46:55,394 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0022: Unregistered web context: '/GIDE_WS' from server 'default-server'
+2019-08-08 11:46:55,444 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0004: Stopping service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-08-08 11:46:56,183 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment GIDE_WS.war (runtime-name: GIDE_WS.war) in 1028ms
+2019-08-08 11:46:56,190 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "GIDE_WS.war" (runtime-name: "GIDE_WS.war")
+2019-08-08 11:47:09,206 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$6.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,208 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$5.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,218 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$booleanInstance$conjunction$.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,229 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$4.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,245 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$3.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,257 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$14.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,261 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$2.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,263 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$booleanInstance$disjunction$.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,289 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$15.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:47:09,897 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xbean.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/batik-js-1.7.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,998 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-core-2.2.11.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,998 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,998 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,998 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,998 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,999 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,999 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,999 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:09,999 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,000 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,000 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,000 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,001 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr250-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,001 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,001 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,001 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr173_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,001 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry sjsxp.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,001 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry resolver.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,002 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,002 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,002 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,002 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,002 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,002 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry stax-utils.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,003 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxws-rt.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,003 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,003 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,012 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxp-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,012 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jax-qname.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,012 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,012 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry servlet.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,012 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,013 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,016 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/serializer-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,023 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry webservices-extra-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/webservices-api-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,024 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xercesImpl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,024 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,024 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry serializer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:47:10,782 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-4) WFLYRS0015: No Servlet declaration found for JAX-RS application.  In GIDE_WS.war either provide a class that extends javax.ws.rs.core.Application or declare a servlet class in web.xml.
+2019-08-08 11:47:10,786 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2019-08-08 11:47:10,791 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 11:47:10,791 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 11:47:10,792 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0003: Unable to instantiate driver class "org.postgresql.Driver": org.jboss.msc.service.DuplicateServiceException: Service jboss.jdbc-driver.GIDE_WS_war_org_postgresql_Driver_42_2 is already registered
+2019-08-08 11:47:10,792 WARN  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0013: Deployment GIDE_WS.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2019-08-08 11:47:10,794 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=co.gide.ws.EnviarArchivoElectronico
+ address=http://localhost:8181/GIDE_WS/GIDEService
+ implementor=co.gide.ws.EnviarArchivoElectronico
+ serviceName={http://www.growupit.com.co/GIDEService}GIDEService
+ portName={http://www.growupit.com.co/GIDEService}GIDEServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2019-08-08 11:47:10,823 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://www.growupit.com.co/GIDEService}GIDEService from class co.gide.ws.EnviarArchivoElectronico
+2019-08-08 11:47:11,013 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8181/GIDE_WS/GIDEService
+2019-08-08 11:47:11,391 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/C:/wildfly-11.0.0.Final/standalone/data/wsdl/GIDE_WS.war/GIDEService.wsdl
+2019-08-08 11:47:11,409 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = GIDE_WS.war_org.postgresql.Driver_42_2
+2019-08-08 11:47:11,409 INFO  [org.jboss.as.webservices] (MSC service thread 1-8) WFLYWS0003: Starting service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-08-08 11:47:11,434 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: '/GIDE_WS' for server 'default-server'
+2019-08-08 11:47:11,525 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "GIDE_WS.war" with deployment "GIDE_WS.war"
+2019-08-08 11:47:11,529 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\wildfly-11.0.0.Final\standalone\data\content\9f\af56f6f1bd549d9d7a780d5cd9162a9b135e34\content
+2019-08-08 11:50:07,606 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0010: Scan found incompletely copied file content for deployment C:\wildfly-11.0.0.Final\standalone\deployments\GIDE_WS.war. Deployment changes will not be processed until all content is complete.
+2019-08-08 11:50:11,658 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\wildfly-11.0.0.Final\standalone\data\content\44\922d4dbe60a201d2666a3e76f6bf294f2f81ec\content
+2019-08-08 11:50:11,754 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = GIDE_WS.war_org.postgresql.Driver_42_2
+2019-08-08 11:50:11,778 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0022: Unregistered web context: '/GIDE_WS' from server 'default-server'
+2019-08-08 11:50:11,828 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) WFLYWS0004: Stopping service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-08-08 11:50:12,248 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment GIDE_WS.war (runtime-name: GIDE_WS.war) in 513ms
+2019-08-08 11:50:12,252 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "GIDE_WS.war" (runtime-name: "GIDE_WS.war")
+2019-08-08 11:50:24,920 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$6.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:24,923 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$5.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:24,929 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$booleanInstance$conjunction$.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:24,940 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$4.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:24,954 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$3.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:24,966 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$14.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:24,971 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$2.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:24,971 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$booleanInstance$disjunction$.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:24,988 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$15.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 11:50:25,623 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry xbean.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/batik-js-1.7.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,730 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-core-2.2.11.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,730 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,730 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,730 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,731 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,731 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,731 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,731 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,731 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,732 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,732 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,732 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,732 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr250-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,732 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr173_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry sjsxp.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry resolver.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry stax-utils.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxws-rt.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,735 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,744 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxp-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,744 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jax-qname.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,744 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,744 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry servlet.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,744 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,744 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,747 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/serializer-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,754 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry webservices-extra-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/webservices-api-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry xercesImpl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:25,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry serializer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 11:50:26,110 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-6) WFLYRS0015: No Servlet declaration found for JAX-RS application.  In GIDE_WS.war either provide a class that extends javax.ws.rs.core.Application or declare a servlet class in web.xml.
+2019-08-08 11:50:26,112 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2019-08-08 11:50:26,115 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 11:50:26,115 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 11:50:26,115 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0003: Unable to instantiate driver class "org.postgresql.Driver": org.jboss.msc.service.DuplicateServiceException: Service jboss.jdbc-driver.GIDE_WS_war_org_postgresql_Driver_42_2 is already registered
+2019-08-08 11:50:26,115 WARN  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0013: Deployment GIDE_WS.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2019-08-08 11:50:26,116 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-6) JBWS024061: Adding service endpoint metadata: id=co.gide.ws.EnviarArchivoElectronico
+ address=http://localhost:8181/GIDE_WS/GIDEService
+ implementor=co.gide.ws.EnviarArchivoElectronico
+ serviceName={http://www.growupit.com.co/GIDEService}GIDEService
+ portName={http://www.growupit.com.co/GIDEService}GIDEServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2019-08-08 11:50:26,169 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-6) Creating Service {http://www.growupit.com.co/GIDEService}GIDEService from class co.gide.ws.EnviarArchivoElectronico
+2019-08-08 11:50:26,306 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-6) Setting the server's publish address to be http://localhost:8181/GIDE_WS/GIDEService
+2019-08-08 11:50:26,692 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-6) JBWS024074: WSDL published to: file:/C:/wildfly-11.0.0.Final/standalone/data/wsdl/GIDE_WS.war/GIDEService.wsdl
+2019-08-08 11:50:26,706 INFO  [org.jboss.as.webservices] (MSC service thread 1-3) WFLYWS0003: Starting service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-08-08 11:50:26,706 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = GIDE_WS.war_org.postgresql.Driver_42_2
+2019-08-08 11:50:26,728 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: '/GIDE_WS' for server 'default-server'
+2019-08-08 11:50:26,746 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "GIDE_WS.war" with deployment "GIDE_WS.war"
+2019-08-08 11:50:26,749 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\wildfly-11.0.0.Final\standalone\data\content\51\cebbf8501acc2580a6efa321271f3cd5042082\content
+2019-08-08 11:51:17,957 INFO  [org.hibernate.jpa.boot.internal.PersistenceXmlParser] (default task-3) HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2019-08-08 11:51:17,957 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-3) Application {http://www.growupit.com.co/GIDEService}GIDEService#{http://www.growupit.com.co/GIDEService}EnviarArchivoElectronicoRequest has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: No Persistence provider for EntityManager named gide_PU
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:267)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:232)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:85)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:145)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:109)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:134)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.persistence.PersistenceException: No Persistence provider for EntityManager named gide_PU
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:61)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at co.gide.tx.persistence.AdminiPersistencia.iniciarPersistencia(AdminiPersistencia.java:21)
+	at co.gide.tx.transaction.TransaccionesGIGE.getAmbiente(TransaccionesGIGE.java:100)
+	at co.gide.ws.EnviarArchivoElectronico.EnviarArchivoElectronico(EnviarArchivoElectronico.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation(WSComponentInstanceAssociationInterceptor.java:56)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invokeInternal(AbstractInvocationHandler.java:161)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.lambda$invoke$0(AbstractInvocationHandler.java:116)
+	at org.jboss.as.webservices.security.SecurityDomainContextImpl.runAs(SecurityDomainContextImpl.java:124)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:115)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:169)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 59 more
+
+2019-08-08 11:56:27,462 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0010: Scan found incompletely copied file content for deployment C:\wildfly-11.0.0.Final\standalone\deployments\GIDE_WS.war. Deployment changes will not be processed until all content is complete.
+2019-08-08 12:06:09,317 INFO  [org.hibernate.jpa.boot.internal.PersistenceXmlParser] (default task-4) HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2019-08-08 12:06:09,330 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-4) Application {http://www.growupit.com.co/GIDEService}GIDEService#{http://www.growupit.com.co/GIDEService}EnviarArchivoElectronicoRequest has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: No Persistence provider for EntityManager named gide_PU
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:267)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:232)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:85)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:145)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:109)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:134)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.persistence.PersistenceException: No Persistence provider for EntityManager named gide_PU
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:61)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at co.gide.tx.persistence.AdminiPersistencia.iniciarPersistencia(AdminiPersistencia.java:21)
+	at co.gide.tx.transaction.TransaccionesGIGE.getAmbiente(TransaccionesGIGE.java:100)
+	at co.gide.ws.EnviarArchivoElectronico.EnviarArchivoElectronico(EnviarArchivoElectronico.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation(WSComponentInstanceAssociationInterceptor.java:56)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invokeInternal(AbstractInvocationHandler.java:161)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.lambda$invoke$0(AbstractInvocationHandler.java:116)
+	at org.jboss.as.webservices.security.SecurityDomainContextImpl.runAs(SecurityDomainContextImpl.java:124)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:115)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:169)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 59 more
+
+2019-08-08 15:16:21,713 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2019-08-08 15:16:22,159 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2019-08-08 15:16:22,304 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2019-08-08 15:16:22,305 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\wildfly-11.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_211\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_211\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_211
+	java.io.tmpdir = C:\Users\ASESOF~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Asesoftware\AppData\Local\Microsoft\WindowsApps;C:\Oracle\instantclient;C:\Users\Asesoftware\AppData\Roaming\npm;D:\leonardo\instaladores\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_211-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_211
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.211-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly-11.0.0.Final
+	jboss.host.name = desktop-dlq7jee
+	jboss.modules.dir = C:\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-dlq7jee
+	jboss.qualified.host.name = desktop-dlq7jee
+	jboss.server.base.dir = C:\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = C:\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = desktop-dlq7jee
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly-11.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly-11.0.0.Final\modules
+	org.jboss.boot.log.file = C:\wildfly-11.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11 at localhost
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_211\lib\resources.jar;C:\Program Files\Java\jre1.8.0_211\lib\rt.jar;C:\Program Files\Java\jre1.8.0_211\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_211\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_211\lib\jce.jar;C:\Program Files\Java\jre1.8.0_211\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_211\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_211\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_211\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly-11.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly-11.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CO
+	user.dir = C:\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\Asesoftware
+	user.language = es
+	user.name = Asesoftware
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-08-08 15:16:22,306 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 at localhost -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly-11.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly-11.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2019-08-08 15:16:23,595 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-08-08 15:16:23,618 INFO  [org.wildfly.security] (ServerService Thread Pool -- 18) ELY00001: WildFly Elytron version 1.1.6.Final
+2019-08-08 15:16:23,618 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-08-08 15:16:23,671 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-08-08 15:16:23,683 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.5.4.Final
+2019-08-08 15:16:23,688 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.5.4.Final
+2019-08-08 15:16:23,717 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2019-08-08 15:16:23,723 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-08-08 15:16:23,727 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-08-08 15:16:23,728 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-08-08 15:16:23,738 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2019-08-08 15:16:23,742 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2019-08-08 15:16:23,746 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2019-08-08 15:16:23,765 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2019-08-08 15:16:23,766 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2019-08-08 15:16:23,789 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.18.Final starting
+2019-08-08 15:16:23,812 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 15:16:23,833 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2019-08-08 15:16:23,832 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-08-08 15:16:23,861 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-08-08 15:16:23,883 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2019-08-08 15:16:23,885 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-08-08 15:16:23,983 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2019-08-08 15:16:23,984 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = oracle
+2019-08-08 15:16:24,034 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-08-08 15:16:24,349 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2019-08-08 15:16:24,352 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2019-08-08 15:16:24,352 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2019-08-08 15:16:24,390 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2019-08-08 15:16:24,393 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2019-08-08 15:16:24,401 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.5.Final
+2019-08-08 15:16:24,496 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8181
+2019-08-08 15:16:24,500 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2019-08-08 15:16:24,516 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-08-08 15:16:24,520 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly-11.0.0.Final\standalone\deployments
+2019-08-08 15:16:24,566 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: EJB subsystem suspension complete
+2019-08-08 15:16:24,771 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-08-08 15:16:24,771 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/GIDEDS]
+2019-08-08 15:16:25,029 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2019-08-08 15:16:25,145 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2019-08-08 15:16:25,201 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-08-08 15:16:25,202 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-08-08 15:16:25,202 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-08-08 15:16:25,203 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 4063ms - Started 300 of 561 services (348 services are lazy, passive or on-demand)
+2019-08-08 15:17:34,637 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0010: Scan found incompletely copied file content for deployment C:\wildfly-11.0.0.Final\standalone\deployments\GIDE_WS.war. Deployment changes will not be processed until all content is complete.
+2019-08-08 15:17:39,273 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\wildfly-11.0.0.Final\standalone\data\content\bf\d2d1be9edc919ee25adb790e3392f5be3797f6\content
+2019-08-08 15:17:39,396 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "GIDE_WS.war" (runtime-name: "GIDE_WS.war")
+2019-08-08 15:17:52,729 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$6.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:52,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$5.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:52,739 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$booleanInstance$conjunction$.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:52,749 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$4.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:52,762 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$3.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:52,774 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$14.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:52,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$2.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:52,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$booleanInstance$disjunction$.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:52,795 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class scalaz/std/AnyValInstances$$anon$15.class at /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/scalaz-core_2.10-7.0.6.jar: java.lang.IllegalArgumentException: Expected character '^' at position 20
+	at org.jboss.jandex.GenericSignatureParser.expect(GenericSignatureParser.java:262)
+	at org.jboss.jandex.GenericSignatureParser.parseMethodSignature(GenericSignatureParser.java:298)
+	at org.jboss.jandex.Indexer.parseMethodSignature(Indexer.java:979)
+	at org.jboss.jandex.Indexer.applySignatures(Indexer.java:968)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1457)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-08-08 15:17:53,375 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry xbean.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/batik-js-1.7.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,489 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-core-2.2.11.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,490 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,490 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,491 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,491 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-impl-2.1.6.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,491 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,503 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,503 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-jxc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,504 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,504 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxb-xjc-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,505 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,505 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,505 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jsr250-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,505 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,505 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,506 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jsr173_api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,506 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry sjsxp.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,506 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry resolver.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,506 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,506 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,506 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry stax-utils.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-rt-2.1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxws-rt.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-xjc.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,508 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/jaxws-tools-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jaxp-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jax-qname.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,517 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry servlet.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-api-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,517 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry saaj-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,517 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry activation.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/saaj-impl-1.3.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,519 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/serializer-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,526 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry webservices-extra-api.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/webservices-api-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,528 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry xercesImpl.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,528 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:53,528 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry serializer.jar in /C:/wildfly-11.0.0.Final/bin/content/GIDE_WS.war/WEB-INF/lib/xalan-2.7.2.jar  does not point to a valid jar for a Class-Path reference.
+2019-08-08 15:17:54,273 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2019-08-08 15:17:54,290 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-4) WFLYRS0015: No Servlet declaration found for JAX-RS application.  In GIDE_WS.war either provide a class that extends javax.ws.rs.core.Application or declare a servlet class in web.xml.
+2019-08-08 15:17:54,294 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2019-08-08 15:17:54,297 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 15:17:54,297 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2019-08-08 15:17:54,298 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0003: Unable to instantiate driver class "org.postgresql.Driver": org.jboss.msc.service.DuplicateServiceException: Service jboss.jdbc-driver.GIDE_WS_war_org_postgresql_Driver_42_2 is already registered
+2019-08-08 15:17:54,298 WARN  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0013: Deployment GIDE_WS.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2019-08-08 15:17:54,338 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=co.gide.ws.EnviarArchivoElectronico
+ address=http://localhost:8181/GIDE_WS/GIDEService
+ implementor=co.gide.ws.EnviarArchivoElectronico
+ serviceName={http://www.growupit.com.co/GIDEService}GIDEService
+ portName={http://www.growupit.com.co/GIDEService}GIDEServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2019-08-08 15:17:54,641 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 7) WFLYCLINF0002: Started client-mappings cache from ejb container
+2019-08-08 15:17:54,866 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://www.growupit.com.co/GIDEService}GIDEService from class co.gide.ws.EnviarArchivoElectronico
+2019-08-08 15:17:55,410 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8181/GIDE_WS/GIDEService
+2019-08-08 15:17:55,862 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/C:/wildfly-11.0.0.Final/standalone/data/wsdl/GIDE_WS.war/GIDEService.wsdl
+2019-08-08 15:17:55,907 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0003: Starting service jboss.ws.endpoint."GIDE_WS.war"."co.gide.ws.EnviarArchivoElectronico"
+2019-08-08 15:17:55,912 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = GIDE_WS.war_org.postgresql.Driver_42_2
+2019-08-08 15:17:56,098 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 7) WFLYUT0021: Registered web context: '/GIDE_WS' for server 'default-server'
+2019-08-08 15:17:56,144 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "GIDE_WS.war" (runtime-name : "GIDE_WS.war")
+2019-08-08 15:18:50,945 INFO  [org.hibernate.jpa.boot.internal.PersistenceXmlParser] (default task-2) HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2019-08-08 15:18:50,949 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-2) Application {http://www.growupit.com.co/GIDEService}GIDEService#{http://www.growupit.com.co/GIDEService}EnviarArchivoElectronicoRequest has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: No Persistence provider for EntityManager named gide_PU
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:267)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:232)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:85)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:145)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:109)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:134)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.persistence.PersistenceException: No Persistence provider for EntityManager named gide_PU
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:61)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at co.gide.tx.persistence.AdminiPersistencia.iniciarPersistencia(AdminiPersistencia.java:21)
+	at co.gide.tx.transaction.TransaccionesGIGE.getAmbiente(TransaccionesGIGE.java:100)
+	at co.gide.ws.EnviarArchivoElectronico.EnviarArchivoElectronico(EnviarArchivoElectronico.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation(WSComponentInstanceAssociationInterceptor.java:56)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invokeInternal(AbstractInvocationHandler.java:161)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.lambda$invoke$0(AbstractInvocationHandler.java:116)
+	at org.jboss.as.webservices.security.SecurityDomainContextImpl.runAs(SecurityDomainContextImpl.java:124)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:115)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:169)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 59 more
+
+2019-08-08 15:26:22,488 INFO  [org.hibernate.jpa.boot.internal.PersistenceXmlParser] (default task-3) HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2019-08-08 15:26:22,495 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-3) Application {http://www.growupit.com.co/GIDEService}GIDEService#{http://www.growupit.com.co/GIDEService}EnviarArchivoElectronicoRequest has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: No Persistence provider for EntityManager named gide_PU
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:267)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:232)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:85)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:145)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:109)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:134)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.persistence.PersistenceException: No Persistence provider for EntityManager named gide_PU
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:61)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at co.gide.tx.persistence.AdminiPersistencia.iniciarPersistencia(AdminiPersistencia.java:21)
+	at co.gide.tx.transaction.TransaccionesGIGE.getAmbiente(TransaccionesGIGE.java:100)
+	at co.gide.ws.EnviarArchivoElectronico.EnviarArchivoElectronico(EnviarArchivoElectronico.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation(WSComponentInstanceAssociationInterceptor.java:56)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invokeInternal(AbstractInvocationHandler.java:161)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.lambda$invoke$0(AbstractInvocationHandler.java:116)
+	at org.jboss.as.webservices.security.SecurityDomainContextImpl.runAs(SecurityDomainContextImpl.java:124)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:115)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:169)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 59 more
+
+2019-08-08 15:26:22,786 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 63) WFLYDR0009: Content C:\wildfly-11.0.0.Final\standalone\data\content\44\922d4dbe60a201d2666a3e76f6bf294f2f81ec is obsolete and will be removed
+2019-08-08 15:26:22,852 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 63) WFLYDR0002: Content removed from location C:\wildfly-11.0.0.Final\standalone\data\content\44\922d4dbe60a201d2666a3e76f6bf294f2f81ec\content
