@@ -1,0 +1,3 @@
+com\growupit\validate\CodigoErrores.class
+com\growupit\validate\ValidatorUBL.class
+com\growupit\validate\ValidatorUBL$ValidationException.class

@@ -1,2 +1,0 @@
-# GIDEWS
-Repositorio para GIDEWS
