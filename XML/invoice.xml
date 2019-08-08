@@ -1,0 +1,226 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gid="http://www.growupit.com.co/GIDEService" xmlns:gid1="http://www.growupit.com/gideEsquema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gid:EnviarArchivoElectronicoRequest>
+         <!--Optional:-->
+         <arg0>
+            <gid1:DatosDeControl>
+               <gid1:Usuario>testUser</gid1:Usuario>
+               <gid1:Contrasenia>1234-5678-91011</gid1:Contrasenia>
+               <gid1:NumeroDocumentoElectronico>1</gid1:NumeroDocumentoElectronico>
+               <gid1:TipoDocumentoElectronico>1</gid1:TipoDocumentoElectronico>
+               <gid1:TipoFactura>1</gid1:TipoFactura>
+               <gid1:FrechaFacturacion>2019-07-28T09:29:00</gid1:FrechaFacturacion>
+               <gid1:Prefijo>PRUE</gid1:Prefijo>
+               <gid1:numeroIdentificacion>1051822275</gid1:numeroIdentificacion>
+               <gid1:TipoDocIdentificacion>CC</gid1:TipoDocIdentificacion>
+            </gid1:DatosDeControl>
+            <gid1:FechaEmision>2019-07-28</gid1:FechaEmision>
+            <gid1:HoraEmision>09:29:00</gid1:HoraEmision>
+            <gid1:Nota/>
+            <gid1:CodigoMoneda>COP</gid1:CodigoMoneda>
+            <gid1:NumeroLineas>1</gid1:NumeroLineas>
+            <gid1:TerceroProveedor>
+               <!--Numero  consecutivo del comprador	:-->
+               <gid1:CuentaAdicionalID>1</gid1:CuentaAdicionalID>
+               <gid1:Tercero>
+                  <!--Numero de identificaicon del tercero-->
+                  <gid1:IdentificacionTercero>1051822275</gid1:IdentificacionTercero>
+                  <!--Nombre del tercero que factura-->
+                  <gid1:NombreTercero>leonardo Luis Calderon Mercado</gid1:NombreTercero>
+                  <gid1:Ubicacion>
+                     <!--Optional:-->
+                     <gid1:Direccion>
+                        <gid1:Piso>302</gid1:Piso>
+                        <gid1:NombreEdificio>Vulevar Javeriana</gid1:NombreEdificio>
+                        <gid1:Departamento>Cundinamarca</gid1:Departamento>
+                        <gid1:NombreCiudad>Bogota D.C</gid1:NombreCiudad>
+                        <gid1:LineaDireccion>cra14#49-50</gid1:LineaDireccion>
+                        <!--Optional:-->
+                        <gid1:Pais>
+                           <!--Optional:-->
+                           <gid1:CodigoIdentificacion>CO</gid1:CodigoIdentificacion>
+                           <!--Optional:-->
+                           <gid1:Nombre>Colombia</gid1:Nombre>
+                        </gid1:Pais>
+                     </gid1:Direccion>
+                  </gid1:Ubicacion>
+                  <!--1 or more repetitions:-->
+                  <gid1:EsquemaImpuestosTercero>
+                     <!--Nombre de la empresa segun la DIAN-->
+                     <gid1:NombreRegistro>Leonardo calderon S.A.S</gid1:NombreRegistro>
+                     <!--numero de identificacion Nit, Cedula-->
+                     <gid1:IDEmpresa>1051822275</gid1:IDEmpresa>
+                     <!--Codigo Nivel tributario segun dian-->
+                     <gid1:CodigoNivelImpuestos>1</gid1:CodigoNivelImpuestos>
+                     <!--dirección o localización del negocio o firma propietario del establecimiento comercial que realizó la venta, registrado en la DIAN-->
+                     <gid1:DireccionRegistro>
+                        <gid1:Piso>302</gid1:Piso>
+                        <gid1:NombreEdificio>Vulevar Javeriana</gid1:NombreEdificio>
+                        <gid1:Departamento>Cundinamarca</gid1:Departamento>
+                        <gid1:NombreCiudad>bogota D.C</gid1:NombreCiudad>
+                        <gid1:LineaDireccion>cra14#49-50</gid1:LineaDireccion>
+                        <!--Optional:-->
+                        <gid1:Pais>
+                           <!--Optional:-->
+                           <gid1:CodigoIdentificacion>CO</gid1:CodigoIdentificacion>
+                           <!--Optional:-->
+                           <gid1:Nombre>Colombia</gid1:Nombre>
+                        </gid1:Pais>
+                        <!--Optional:-->
+                     </gid1:DireccionRegistro>
+                     <gid1:EsquemaImpuestos>
+                        <!--Optional:Régimen: Régimen al que pertenece. Debe referenciar a una lista de códigos con los valores correspondientes, por ejemplo: • Común • Simplificado • No aplica-->
+                        <gid1:Nombre>Simplificado</gid1:Nombre>
+                     </gid1:EsquemaImpuestos>
+                  </gid1:EsquemaImpuestosTercero>
+                  <!--Zero or more repetitions:-->
+                  <gid1:EntidadLegalTercero>
+                     <gid1:NombreRegistro>Leonardo calderon S.A.S</gid1:NombreRegistro>
+                     <!--Optional:-->
+                     <gid1:IDEmpresa>1051822275</gid1:IDEmpresa>
+                  </gid1:EntidadLegalTercero>
+                  <!--Optional:-->
+                  <gid1:Contacto>
+                     <gid1:Nombre>Leonardo Calderon</gid1:Nombre>
+                     <!--Optional:-->
+                     <gid1:Telefono>3015603878</gid1:Telefono>
+                     <!--Optional:-->
+                     <gid1:CorreoElectronico>calde2010@hotmail.es</gid1:CorreoElectronico>
+                     <!--Optional:-->
+                     <gid1:Nota>LLamar en horaio de 8am a 5 pm</gid1:Nota>
+                  </gid1:Contacto>
+               </gid1:Tercero>
+            </gid1:TerceroProveedor>
+            <gid1:TerceroCliente>
+               <!--Numero  consecutivo del comprador	:-->
+               <gid1:CuentaAdicionalID>1</gid1:CuentaAdicionalID>
+               <gid1:Tercero>
+                  <!--Numero de identificaicon del tercero-->
+                  <gid1:IdentificacionTercero>1051822275</gid1:IdentificacionTercero>
+                  <!--Nombre del tercero que factura-->
+                  <gid1:NombreTercero>leonardo Luis Calderon Mercado</gid1:NombreTercero>
+                  <gid1:Ubicacion>
+                     <!--Optional:-->
+                     <gid1:Direccion>
+                        <gid1:Piso>302</gid1:Piso>
+                        <gid1:NombreEdificio>Vulevar Javeriana</gid1:NombreEdificio>
+                        <gid1:Departamento>Cundinamarca</gid1:Departamento>
+                        <gid1:NombreCiudad>Bogota D.C</gid1:NombreCiudad>
+                        <gid1:LineaDireccion>cra14#49-50</gid1:LineaDireccion>
+                        <!--Optional:-->
+                        <gid1:Pais>
+                           <!--Optional:-->
+                           <gid1:CodigoIdentificacion>CO</gid1:CodigoIdentificacion>
+                           <!--Optional:-->
+                           <gid1:Nombre>Colombia</gid1:Nombre>
+                        </gid1:Pais>
+                     </gid1:Direccion>
+                  </gid1:Ubicacion>
+                  <!--1 or more repetitions:-->
+                  <gid1:EsquemaImpuestosTercero>
+                     <!--Nombre de la empresa segun la DIAN-->
+                     <gid1:NombreRegistro>Leonardo calderon S.A.S</gid1:NombreRegistro>
+                     <!--numero de identificacion Nit, Cedula-->
+                     <gid1:IDEmpresa>1051822275</gid1:IDEmpresa>
+                     <!--Codigo Nivel tributario segun dian-->
+                     <gid1:CodigoNivelImpuestos>1</gid1:CodigoNivelImpuestos>
+                     <!--dirección o localización del negocio o firma propietario del establecimiento comercial que realizó la venta, registrado en la DIAN-->
+                     <gid1:DireccionRegistro>
+                        <gid1:Piso>302</gid1:Piso>
+                        <gid1:NombreEdificio>Vulevar Javeriana</gid1:NombreEdificio>
+                        <gid1:Departamento>Cundinamarca</gid1:Departamento>
+                        <gid1:NombreCiudad>bogota D.C</gid1:NombreCiudad>
+                        <gid1:LineaDireccion>cra14#49-50</gid1:LineaDireccion>
+                        <!--Optional:-->
+                        <gid1:Pais>
+                           <!--Optional:-->
+                           <gid1:CodigoIdentificacion>CO</gid1:CodigoIdentificacion>
+                           <!--Optional:-->
+                           <gid1:Nombre>Colombia</gid1:Nombre>
+                        </gid1:Pais>
+                        <!--Optional:-->
+                     </gid1:DireccionRegistro>
+                     <gid1:EsquemaImpuestos>
+                        <!--Optional:Régimen: Régimen al que pertenece. Debe referenciar a una lista de códigos con los valores correspondientes, por ejemplo: • Común • Simplificado • No aplica-->
+                        <gid1:Nombre>Simplificado</gid1:Nombre>
+                     </gid1:EsquemaImpuestos>
+                  </gid1:EsquemaImpuestosTercero>
+                  <!--Zero or more repetitions:-->
+                  <gid1:EntidadLegalTercero>
+                     <gid1:NombreRegistro>Leonardo calderon S.A.S</gid1:NombreRegistro>
+                     <!--Optional:-->
+                     <gid1:IDEmpresa>1051822275</gid1:IDEmpresa>
+                  </gid1:EntidadLegalTercero>
+                  <!--Optional:-->
+                  <gid1:Contacto>
+                     <gid1:Nombre>Leonardo Calderon</gid1:Nombre>
+                     <!--Optional:-->
+                     <gid1:Telefono>3015603878</gid1:Telefono>
+                     <!--Optional:-->
+                     <gid1:CorreoElectronico>calde2010@hotmail.es</gid1:CorreoElectronico>
+                     <!--Optional:-->
+                     <gid1:Nota>LLamar en horaio de 8am a 5 pm</gid1:Nota>
+                  </gid1:Contacto>
+               </gid1:Tercero>
+            </gid1:TerceroCliente>
+            <!--Zero or more repetitions:-->
+            <gid1:TotalImpuestos>
+               <gid1:MontoImpuesto>102600.00</gid1:MontoImpuesto>
+               <gid1:IndicadorEvidenciaImpuesto>false</gid1:IndicadorEvidenciaImpuesto>
+               <!--1 or more repetitions:-->
+               <gid1:SubtotalImpuesto>
+                  <gid1:MontoGravable>540000.00</gid1:MontoGravable>
+                  <gid1:MontoImpuesto>102600.00</gid1:MontoImpuesto>
+                  <gid1:Porcentaje>19</gid1:Porcentaje>
+                  <!--Optional:-->
+                  <gid1:ImpuestoCategoria>
+                     <!--Optional:-->
+                     <gid1:ID >01</gid1:ID>
+                     <!--Optional:-->
+                     <gid1:Nombre>IVA</gid1:Nombre>
+                     <gid1:RegimenTriburario>
+                        <gid1:Id >01</gid1:Id>
+                        <!--Optional:-->
+                        <gid1:Nombre>IVA</gid1:Nombre>
+                     </gid1:RegimenTriburario>
+                  </gid1:ImpuestoCategoria>
+               </gid1:SubtotalImpuesto>
+            </gid1:TotalImpuestos>
+            <gid1:Totales>
+               <!--621. Monetary Total. - Base Imponible. - Total de los importes netos de línea sin impuestos ni descuentos, pero incluyendo redondeo.-->
+               <gid1:MontoExtensionLinea>1444608.00</gid1:MontoExtensionLinea>
+               <!--622. Monetary Total. - Total de impuestos. - Importe total de impuestos.-->
+               <gid1:MontoExclusivoImpuesto>291136.48</gid1:MontoExclusivoImpuesto>
+               <!--623. Monetary Total. - Importe total impuestos incluídos. - Importe total incluyendo impuestos.-->
+               <gid1:MontoIncluyendoImpuesto>1735744.48</gid1:MontoIncluyendoImpuesto>
+               <gid1:MontoPagado>2030744.48</gid1:MontoPagado>
+            </gid1:Totales>
+            <!--1 or more repetitions:-->
+            <gid1:DetalleFactura>
+               <!--identificador de la obra, definido y asignado por el Facturador Electrónico-->
+               <gid1:ID>O-2017-4</gid1:ID>
+               <gid1:CantidadFactura>1</gid1:CantidadFactura>
+               <!--(valor neto de la obra; /fe:Invoice/fe:InvoiceLine[1]/fe:Price/cbc:PriceAmount) .multiplicadoPor. (/fe:Invoice/fe:InvoiceLine[1]/cbc:InvoicedQuantity)-->
+               <gid1:MontoLineaExtension>3000000.00</gid1:MontoLineaExtension>
+               <!--Zero or more repetitions:-->
+               <gid1:ImpuestoTotal>
+                  <gid1:MontoImpuesto>0.00</gid1:MontoImpuesto>
+                  <!--1 or more repetitions:-->
+                  <gid1:SubtotalImpuesto>
+                     <gid1:Porcentaje>19</gid1:Porcentaje>
+                  </gid1:SubtotalImpuesto>
+               </gid1:ImpuestoTotal>
+               <gid1:Articulo>
+                  <!--Zero or more repetitions:-->
+                  <gid1:Descripcion>Obra civil</gid1:Descripcion>
+               </gid1:Articulo>
+               <gid1:Precio>
+                  <gid1:PrecioMonto>3000000.00</gid1:PrecioMonto>
+               </gid1:Precio>
+               <!--Optional:-->
+            </gid1:DetalleFactura>
+         </arg0>
+      </gid:EnviarArchivoElectronicoRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
